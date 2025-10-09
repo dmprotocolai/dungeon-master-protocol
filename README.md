@@ -118,6 +118,8 @@ A User-Developed Framework for High-Fidelity AI Storytelling
 
 # INTRODUCTION
 
+[**Download the official PDF version here.**]([link-to-your-pdf-on-github](https://github.com/dmprotocolai/dungeon-master-protocol/blob/main/The%20%E2%80%9CDungeon%20Master%E2%80%9D%20Protocol_%20A%20User-Developed%20Framework%20for%20High-Fidelity%20AI%20Storytelling%20-%20Google%20Docs.pdf))
+
 Like many, I've used different AI models as a substitute for a human roleplay partner. However when I searched for what others were prompting for their roleplays and did similar, I found that the AI's character came off more as a flat caricature than as a believable person. My solution was to analyze a summary from a previous long-form roleplay and collaborate with an AI (Gemini) to systematize its strengths and solve its weaknesses. And through that collaboration I've developed a prompt that gives the most realistic replies and prose I've seen yet.
 
 This became a catalyst for a two-month-long iterative process of diagnosing and solving these pitfalls. The result is the "Dungeon Master Protocol," a comprehensive rules-based framework for high-fidelity, long-form storytelling. The rest of this document will break down the final version and reasoning behind each rule.
