@@ -1,5 +1,6 @@
 # dungeon-master-protocol
 A User-Developed Framework for High-Fidelity AI Storytelling
+
 **TABLE OF CONTENTS:**
 
 [**The "Dungeon Master" Protocol: A User-Developed Framework for High-Fidelity AI Storytelling 2**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.2j6na8ab7ek6)
