@@ -411,6 +411,12 @@ The model's immediate, corrected (but overly simplistic) response:
 
 "The cold night air felt damp against his skin. Ahead, a puddle had formed between the cobblestones..."
 
+Exhibit D: The "Chatpocalypse" - A Catastrophic 53-Page Failure
+
+As an extreme example of model degradation, one test with Gemini 1.5 Pro resulted in a catastrophic loop that generated a 53-page document of repetitive, nonsensical text. Due to browser and clipboard limitations with massive text blocks, the full, raw artifact is preserved in the Google Doc linked below.
+
+[[VIEW THE FULL 53-PAGE CHATOCALYPSE LOG HERE](https://docs.google.com/document/d/1ZEc7bj1ZeeD2rB7H-AegRyrxtx4v0jHIIlsKTfKZPFg/edit?usp=sharing)]
+
 ### Analysis
 
 The STOP command successfully breaks the catastrophic loop, but the AI often overcorrects into a robotic, minimalist style. This is an expected "aftershock." The situation is then fully resolved by using the Post-Reset Re-Calibration prompt, which restores the model's literary voice and reminds it of the core rules, achieving a perfect balance. This two-step process demonstrates the protocol's ability to not just stop a failure, but to guide the model back to its optimal state.
