@@ -484,11 +484,6 @@ I'm sharing this document with the nerds, the developers, and the storytellers w
 
 \[[LINK](https://docs.google.com/document/d/102lVTIaWlBAyGUcHwMvuOPDB-aUgd6oNVC-I3fnyOCA/edit?usp=drivesdk)\] This is the blank 'master prompt' template on which I crafted my own world 'bible'. It's designed with writers in mind and forces you to get into your character's 'shoes' and think like them, leading to better storytelling. Treat this prompt as a multi-stage installation process, as when filled out it is too long for a single message. The 'chunking' prompts and accompanying instructions tell you how to break up your prompt for the best results.
 
-# APPENDIX B: THE DEVELOPMENT LOGS & ARCHEOLOGY
-
-\[[LINK](https://docs.google.com/document/d/1En3XUfLYOSUh5VPsPRHcD0Al_1Q5mSuRdLapYBexySQ/edit?usp=drivesdk)\] For those interested in the "nuts and bolts" of its creation-the R&D process, the initial rule sets, the mid-builds, the "Instruction Heist" log, and the documented model failures that shaped the final framework-the complete development history is available as a separate document.
-
-This is the "Director's Commentary" for the true nerds and developers.
 
 # CONTACT INFO
 
