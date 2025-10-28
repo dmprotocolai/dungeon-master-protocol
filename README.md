@@ -8,7 +8,7 @@ A User-Developed Framework for High-Fidelity AI Storytelling
 [**INTRODUCTION: 4**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.4bkzn6u1xfat)
 
 [A Note on Methodology & Stress-Testing 4](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.c1mz5r7ygdyb)
-
+ 
 [**A QUICK START GUIDE: (SIMPLIFIED SETUP) 5**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.36vwvf4ffc70)
 
 [**BEFORE: 5**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.ekj8it5tg3rh)
@@ -378,11 +378,10 @@ Use these commands to fix mistakes, break repetitive loops, and correct the AI's
 
 # THE CASE STUDIES
 
-\[[LINK 1](https://docs.google.com/document/d/13R4t5o7eQQquak6ktnZzua6nR_beV3GJ5cKQHQiR0Ko/edit?usp=drivesdk)\] **Case Study: The 'Instruction Heist' -** A step-by-step guide to reverse-engineering a custom GPT's core programming to build a superior persona.
 
-\[[LINK 2\]](https://docs.google.com/document/d/10BxXGEXA6oVnNS87ATeFZjn6688gjtcCbSBcxc-JL5s/edit?usp=drivesdk) **Case Study: The Fossil Record** \- Raw, unfiltered logs of catastrophic model failures and the exact commands used to perform emergency recovery."
+\[[LINK 1\]](https://docs.google.com/document/d/10BxXGEXA6oVnNS87ATeFZjn6688gjtcCbSBcxc-JL5s/edit?usp=drivesdk) **Case Study: The Fossil Record** \- Raw, unfiltered logs of catastrophic model failures and the exact commands used to perform emergency recovery."
 
-\[[LINK 3](https://docs.google.com/document/d/1-xwBJ4GzCCZJd5ka2sXtjnEViCSmLbEcamqgbfv3T10/edit?usp=drivesdk)\] Case Study: Building 'The Gilded Cage' - A look at the real-world-inspired documents that create a living, breathing, high-stakes universe for the AI."
+\[[LINK 2](https://docs.google.com/document/d/1-xwBJ4GzCCZJd5ka2sXtjnEViCSmLbEcamqgbfv3T10/edit?usp=drivesdk)\] Case Study: Building 'The Gilded Cage' - A look at the real-world-inspired documents that create a living, breathing, high-stakes universe for the AI."
 
 ## ANATOMY OF A MODEL FAILURE
 
@@ -442,11 +441,6 @@ After the reminder, the model not only corrects itself but offers a deeply apolo
 
 This case demonstrates that the protocol's "Constitution" is not just for initial setup; it serves as a vital re-anchoring document. Unlike the Gemini loop which required a hard system shock, this "Persona Drift" was corrected with a simple, direct reference back to the core rules. The model's ability to seamlessly re-adopt the correct persona-and even apologize for its lapse within that persona-shows the effectiveness of having a clear, well-defined rule set to recall. This proves the protocol's utility for long-term consistency and character maintenance.
 
-Exhibit D: The "Chatpocalypse" - A Catastrophic 53-Page Failure
-
-As an extreme example of model degradation, one test with Gemini 1.5 Pro resulted in a catastrophic loop that generated a 53-page document of repetitive, nonsensical text. Due to browser and clipboard limitations with massive text blocks, the full, raw artifact is preserved in the Google Doc linked below.
-
-[[VIEW THE FULL 53-PAGE CHATOCALYPSE LOG HERE](https://docs.google.com/document/d/1ZEc7bj1ZeeD2rB7H-AegRyrxtx4v0jHIIlsKTfKZPFg/edit?usp=sharing)]
 
 # MODEL PERFORMANCE ANALYSIS
 
