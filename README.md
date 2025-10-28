@@ -71,7 +71,6 @@ A User-Developed Framework for High-Fidelity AI Storytelling
 
 [**APPENDIX A: THE BLANK TEMPLATE 18**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.j7ydoyse39hy)
 
-[**APPENDIX B: THE DEVELOPMENT LOGS & ARCHEOLOGY 18**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.kmmpq2vehta4)
 
 [**CONTACT INFO: 19**](https://docs.google.com/document/d/1-nszO5EzKXxdnvJsK8uLFG0v6RalrAJ8HJ4VzDl-62M/edit?pli=1&tab=t.0#heading=h.2wdyz9kfmk4q)
 
