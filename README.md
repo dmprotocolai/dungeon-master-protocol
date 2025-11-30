@@ -34,7 +34,7 @@ Welcome. This repository serves as a public index for my acknowledged contributi
 
 ## 🧐 About This Research
 
-My private research, including methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source
+My private research, including methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source.
 
 Contact:
 
