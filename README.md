@@ -77,7 +77,7 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 ### 2. The Focus Mode (ADHD Savior) 
 **What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on.
 
-### 3. Sidebar Assassin (Tab Index & Meetings)
+### 3. Sidebar Assassins (Tab Index & Meetings)
 **What it does:**
 *   Removes the "Tab Index" sidebar (laggy, unnecessary).
 *   Removes the "Meetings" sidebar (blocks the scroll bar, useless).
@@ -89,7 +89,7 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 ### 💻 How to use the Docs Scripts
 1.  Download [Tampermonkey](https://www.tampermonkey.net/).
 2.  Click the icon in the extension toolbar and click 'Create a new script'.
-3.  Paste the script from `scripts/google_docs/` and hit File > Save.
+3.  Paste the script from `scripts/` and hit File > Save.
 4.  Refresh your Doc, script should now be active. 
 
 ---
@@ -110,7 +110,7 @@ LMSYS is great, but the logs are unstable and hard to export. This script runs i
 *   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder.
 
 **Usage:**
-> Copy the code from `scripts/scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
+> Copy the code from `scripts/lmsys-scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
 
 ---
 
