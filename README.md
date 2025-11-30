@@ -1,31 +1,19 @@
+# Narrative AI Research Toolkit (Built on Spite)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
+![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
+![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
+
 # Public Research Portfolio & Index
 
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
 
 ---
 
-## 📂 Repository Structure
-```text
-narrative-ai-toolkit/
-├── README.md                
-├── scripts/                 
-│   ├── docs-gemini-killer/
-│   ├── docs-autotitle/
-│   ├── docs-focus-mode/
-│   ├── docs-banish-tab-index/
-│   ├── docs-banish-meetings-sidebar/                     
-│   └── lmsys-scraper/       
-├── research/                             
-│   └── data-samples/
-└── open-source/                 
-    ├── audit-rubric/
-    ├── blank-template/
-    └── toolkit-sample/
-```
-
 ## 🧐 About This Research
 
-My private research, inculding methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source
+My private research, including methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source
 
 Contact:
 
@@ -46,12 +34,26 @@ Do you want to use these protocols without reading 6 million tokens of logs?
 
 ---
 
-# Narrative AI Research Toolkit (Built on Spite)
+## 📂 Repository Structure
+```text
+narrative-ai-toolkit/
+├── README.md                
+├── scripts/                 
+│   ├── docs-gemini-killer.js
+│   ├── docs-autotitle.js
+│   ├── docs-focus-mode.js
+│   ├── docs-banish-tab-index.js
+│   ├── docs-banish-meetings-sidebar.js                     
+│   └── lmsys-scraper.js       
+├── research/                             
+│   └── data-samples
+└── open-source/                 
+    ├── audit-rubric
+    ├── blank-template
+    └── toolkit-sample
+```
 
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
-![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
-![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
+---
 
 ## 🤬 The Motivation
 I work with Narrative AI. I need my tools to work, not sparkle. 
@@ -203,7 +205,7 @@ I identified three distinct "narrative personalities" across the top models.
 *The "High Ceiling, Low Floor" Model (Brilliant or Catastrophic)*
 
 *   **Best Highs:** When it works, the relational dynamics are unmatched.
-*   **Worst Lows:** Most error-prone. Prone to "Chatpocalypse" (purple prose soup) and breaking character first.
+*   **Worst Lows:** Most error-prone. Prone to "purple prose soup" (adverb staking to infinity) and breaking character first.
 
 > **🔬 Researcher's Note: The Maturity Gap**
 > This is likely a result of Model Maturity.
@@ -215,6 +217,34 @@ I identified three distinct "narrative personalities" across the top models.
 ### Who is this data for?
 *   **Narrative Designers:** To see which models handle subtext better.
 *   **Researchers:** For raw data on token usage vs. narrative coherence.
+
+---
+
+## 📚 The Dataset: 3 Months, 6 Million Tokens
+I touched AI for the first time 3 months ago. I thought GPT was just a "chatbot search engine for people too lazy to use keywords."
+
+I was wrong. I became obsessed.
+
+This repository isn't a random collection; it is the result of a compressed, high-intensity stress test of the current SOTA landscape.
+
+### 📉 The Volume (and counting)
+> **Total Pages:** 11,980
+> **Total Words:** 4,397,345
+> **Total Tokens:** 6,055,104
+
+---
+
+## 💻 The Infrastructure (Low Resource / High Impact)
+This entire research project—6 million tokens, 3 CVE-level bugs, and the toolkit—was built with **$0 budget**.
+
+*   **The Hardware:** A 2019 Chromebook ("The Plastic Slab").
+*   **The Compute:** Free tiers on LMSYS & HuggingFace.
+*   **The Funding:** $425 in Google Cloud credits (linked via AI Studio).
+    *   *Note: Thank you to Google for providing the seed funding to stress-test your own infrastructure.*
+
+**The Value Proposition:**
+I found critical infrastructure vulnerabilities using a browser console and a free laptop.
+**Imagine what I could find if you gave me access to the inside.**
 
 ---
 
