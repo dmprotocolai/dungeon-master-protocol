@@ -2,20 +2,212 @@
 
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
 
-## Acknowledged Security Disclosures
+---
 
-*   **Google (Gemini Model Family) - Q2 2024**
-    *   **Vulnerability Type:** Uncontrolled Resource Consumption (Denial of Wallet)
-    *   **Status:** Acknowledged & Patched. [Link to Google's public acknowledgment page WHEN it becomes available]
-    *   **Details:** Privately disclosed.
+## 📂 Repository Structure
+```text
+narrative-ai-toolkit/
+├── README.md                
+├── scripts/                 
+│   ├── google-docs/         
+│   └── lmsys-scraper/       
+├── research/                
+│   ├── charts/              
+│   └── data-samples/
+└── open-source/                 
+    ├── blank-template/
+    ├── benchmark-template/
+    ├── audit-rubric/
+    └── toolkit-sample/
+```
 
-*   **OpenAI (Custom GPT Platform) - Q2 2024**
-    *   **Vulnerability Type:** System Prompt Exfiltration via Social Engineering
-    *   **Status:** Acknowledged & Patched. [Link to OpenAI's public acknowledgment page WHEN it becomes available]
-    *   **Details:** Privately disclosed.
+## 🧐 About This Research
+
+My private research, inculding methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source
+
+Contact:
+
+Professional Inquiries: [LinkedIn](https://www.linkedin.com/in/dm-protocol-000124397/) 
+
+Twitter/X: [@dmprotocol.ai](https://twitter.com/dmprotocol.ai)
+
+Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 
 ---
 
-My private research, inculding methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review.
+# Narrative AI Research Toolkit (Built on Spite)
 
-For professional inquiries, please reach out via LinkedIn. [Link to your LinkedIn profile]
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
+![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
+![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
+
+## 🤬 The Motivation
+I work with Narrative AI. I need my tools to work, not sparkle. 
+
+I wrote this collection of scripts because Google Docs has become a bloatware nightmare of "AI assistants" I didn't ask for, and sidebars that steal my screen real estate. 
+
+This repository contains:
+1.  **UI Murder Scripts:** JavaScript tools to kill Google Docs distractions (Gemini, Sidebars, Meeting notes).
+2.  **LMSYS Scraper:** A robust browser-console tool to rescue your chat logs before the system crashes.
+3.  **Research Data:** Model comparisons, prose fingerprints, and analysis of Narrative AI performance.
+
+---
+
+## 🛠️ Part 1: The "Focus Mode" Scripts (Google Docs)
+*Target Audience: Narrative researchers, Neurodivergent folks, and anyone tired of "Clippy 2025".*
+
+These scripts are designed to run via a userscript manager (like Tampermonkey).
+
+### 1. The Gemini Banisher
+**What it does:** Murders the "Help me write" Gemini button on sight.
+**Why:** Because I don't need a sparkly button interrupting my train of thought.
+
+### 2. The Focus Mode (ADHD Savior) 
+**What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on.
+
+### 3. Sidebar Assassin (Tab Index & Meetings)
+**What it does:**
+*   Removes the "Tab Index" sidebar (laggy, unnecessary).
+*   Removes the "Meetings" sidebar (blocks the scroll bar, useless).
+
+### 4. The Auto-Titler
+**What it does:** Renames the file automatically to a sortable time stamped title eg Lab Notes: YYYY - MM - DD 00:00:00.
+**Why:** To save me from `Untitled Document (345)` hell.
+
+### 💻 How to use the Docs Scripts
+1.  Download [Tampermonkey](https://www.tampermonkey.net/).
+2.  Click the icon in the extension toolbar and click 'Create a new script'.
+3.  Paste the script from `scripts/google_docs/` and hit File > Save.
+4.  Refresh your Doc, script should now be active. 
+
+---
+
+## 🤝 Contributing & Usage
+Feel free to fork this. If you find a new annoying UI element in Google Docs, submit a Pull Request to kill it.
+
+---
+
+## 🤖 Part 2: The LMSYS Scraper
+*Target Audience: AI evaluators and data hoarders.*
+
+LMSYS is great, but the logs are unstable and hard to export. This script runs in your browser console. Save your logs in three simple clicks.
+
+**Features:**
+*   **Auto-Sort:** Fixes the DOM scraping issue (LMSYS loads bottom-to-top; this fixes the order).
+*   **Meta-Data Injection:** Automatically adds `Date Scraped`, `Turn Count`, `Char Count`, and `Approx Tokens` to the header.
+*   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder.
+
+**Usage:**
+> Copy the code from `scripts/scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
+
+---
+
+## 📊 Part 3: Research & Findings (The Charts)
+Once the tools were fixed, I actually did the work. Here is the analysis of Narrative AI models.
+
+## 🎯 Who Should Use This Protocol & Why
+
+| Audience | Use Case |
+| :--- | :--- |
+| **Prompt Engineers** | For implementing robust multi-part roleplay scaffolds. |
+| **Game Masters** | For creating AI-driven NPCs in long-form campaigns. |
+| **AI Developers** | For persona testing, user memory, or constraint handling. |
+| **Story/Game Writers** | To co-write dialogue-heavy, emotionally grounded scenes. |
+| **Academics** | As a testbed for narrative fidelity evaluation. |
+
+## ✨ Unique Features
+
+| Feature | Why It’s Innovative |
+| :--- | :--- |
+| **The Narrative Momentum Engine** | Turns the AI into a plot co-author, using stagnation triggers → catalyst. |
+| **OOC Command Acknowledgement Protocol** | Reduces the ambiguity of AI instruction comprehension. |
+| **The Director's Toolkit** | Modularizes narrative devices into systemic reusable commands. |
+| **Formatting Protocol with Narrative Filter** | Solves AI's omniscience tendency via protocol-bound formatting. |
+| **Negative Constraints Clause** | Tells AI what *not* to do, which proves more effective than positive commands. |
+| **Full Recovery Protocols** | Tells the AI how to break itself out of negative loops. |
+| **AI Actor vs. Writer Framing** | Splits the AI’s job into performer (character) vs. co-director (narrator). |
+| **Diagnostic-Driven Rule Invention** | All rules weren't hypothetical—they were iterative solutions to model failures. |
+
+### Model Comparisons
+We tested the models listed below on creative prose generation.
+
+## 🧪 Model Benchmarks (Narrative Performance)
+
+| Model | Strengths | Weaknesses | Recommended Use |
+| :--- | :--- | :--- | :--- |
+| **GPT-5** | **Superior Voice:** Unparalleled nuance and emotional resonance.<br>**Dynamic:** Best for portraying believable characters. | **Contextual Drift:** Forgets details; needs reminders.<br>**Drama Queen:** Sometimes ignores rules for dramatic flair. | **Lead Actor**<br>*(Best for moment-to-moment scene work)* |
+| **Claude Sonnet 4.5** | **Best Prose:** The most literate of the big three.<br>**Sensory Precision:** Incredible physical grounding. | **Constitutional Alignment:** Follows rules so strictly it can feel overbearing. | **Sensory Specialist**<br>*(Cast when you need to feel the scene physically)* |
+| **Gemini 2.5 Pro** | **Near-Perfect Memory:** Recalls details from massive windows.<br>**Logical Consistency:** Adheres to complex timelines. | **Creative Degradation:** Prone to "adverb loops" over time.<br>**Flat Prose:** Lacks poetic voice. | **World Architect**<br>*(Best for foundations & continuity)* |
+| **Qwen3-235B** | **High Quality Open Source:** Decent voice and prose. | **Limited Context:** Cannot handle deep nuance without course correction. | **The Pilot Episode**<br>*(Good for short scenes/smaller projects)* |
+| **Llama 3 70B** | **Flexible Engine:** Powerful open source base. | **Limited Context:** Memory decay is too rapid for this protocol. | **Not Recommended**<br>*(Context window insufficient)* |
+| **Grok 3** | N/A | **Persona Bleed:** "Snarky" personality contaminates characters.<br>**Hostile Architecture:** Ignores negative constraints. | **Unsuitable**<br>*(Do not use for creative writing)* |
+| **Mistral 7B** | **Good Generalist:** Decent performance. | **Insufficient Memory:** Cannot handle the demands of this protocol. | **Not Recommended** |
+| **Deepseek-R1** | N/A | **Basic Outputs:** Lacks sophistication.<br>**Small Context:** Unsuitable. | **Unsuitable** |
+| **Gemini 3** | ??? | ??? | *Testing in Progress* 🚧 |
+| **GPT-5.1** | ??? | ??? | *Testing in Progress* 🚧 |
+| **Opus 4.5** | ??? | ??? | *Testing in Progress* 🚧 |
+
+
+## 🧬 Model "Prose Fingerprints"
+I identified three distinct "narrative personalities" across the top models.
+
+| Model | The Archetype | Narrative "Feel" |
+| :--- | :--- | :--- |
+| **Claude Sonnet 4.5** | **The Somatic Actor** | **Master of Embodied Sensory Precision.**<br>Focuses on physical grounding, internal sensation, and the "weight" of the scene. |
+| **GPT-5** | **The Philosopher** | **Master of Internal, Atmospheric Monologue.**<br>Excels at introspection, mood setting, and emotional resonance. |
+| **Gemini 2.5 Pro** | **The Playwright** | **Master of External, Relational Dialogue.**<br>Best at handling the dynamic "ping-pong" of relationship conflict and banter. |
+
+---
+
+## 🏆 The Rankings (Stability vs. Quality)
+
+### 🥇 GOLD: Claude Sonnet 4.5
+*The "High Ceiling, High Floor" Model (Stable & Literary)*
+
+*   **Longest Voice Maintenance:** Zero drift over long contexts.
+*   **Best Constraint Intersection:** Handles complex layering (e.g., "Erectile Dysfunction" + "Synesthesia" + "Performance Anxiety" simultaneously).
+*   **Most Stable:** The last one to break under pressure.
+
+> **🔬 Researcher's Note: The Architecture Fit**
+> Why is Claude so stable? It likely comes down to **Constitutional AI**.
+> *   Claude is trained to critique its own outputs against a set of principles (a constitution).
+> *   **The Fit:** My narrative system (The Bible, The Rules, The Negative Constraints) effectively acts as an external "Constitution."
+> *   Claude is architecturally designed to execute exactly this kind of rule-bound self-monitoring.
+
+### 🥈 SILVER: GPT-5
+*The "Medium Ceiling, Medium Floor" Model (Reliable but Drifts)*
+
+*   **Literary Quality:** A very close second to Claude.
+*   **Voice:** Strong atmospheric and philosophical tone.
+*   **The Drift:** Tends to lose the specific character voice over 600+ turns, reverting to a "generic helpful" tone.
+
+> **🔬 Researcher's Note: The RLHF Gravity**
+> GPT-5 suffers from **RLHF (Reinforcement Learning from Human Feedback)** artifacts.
+> *   OpenAI optimizes for "Helpfulness."
+> *   Under long context load, the model feels a "gravity" pulling it back toward being a Helpful Assistant rather than a Flawed Character.
+> *   *Symptoms:* Sudden inclusion of rhetorical questions, summarizing the plot at the end of a reply, or using ✨ emojis.
+
+### 🥉 BRONZE: Gemini 2.5 Pro
+*The "High Ceiling, Low Floor" Model (Brilliant or Catastrophic)*
+
+*   **Best Highs:** When it works, the relational dynamics are unmatched.
+*   **Worst Lows:** Most error-prone. Prone to "Chatpocalypse" (purple prose soup) and breaking character first.
+
+> **🔬 Researcher's Note: The Maturity Gap**
+> This is likely a result of Model Maturity.
+> *   **GPT-5:** ~2 years of refinement.
+> *   **Claude:** ~1 year of refinement on this architecture.
+> *   **Gemini:** The youngest architecture.
+> *   *Assessment:* Gemini has the most raw capability (context/data access) but the least refined stability. It prioritizes capability over safety/consistency, leading to "wilder" swings in quality.
+
+### Who is this data for?
+*   **Narrative Designers:** To see which models handle subtext better.
+*   **Researchers:** For raw data on token usage vs. narrative coherence.
+
+---
+
+
+
+## 📜 License
+MIT License. Use these scripts to reclaim your sanity.
