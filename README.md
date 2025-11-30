@@ -9,10 +9,13 @@ Welcome. This repository serves as a public index for my acknowledged contributi
 narrative-ai-toolkit/
 ├── README.md                
 ├── scripts/                 
-│   ├── google-docs/         
+│   ├── docs-gemini-killer/
+│   ├── docs-autotitle/
+│   ├── docs-focus-mode/
+│   ├── docs-banish-tab-index/
+│   ├── docs-banish-meetings-sidebar/                     
 │   └── lmsys-scraper/       
-├── research/                
-│   ├── charts/              
+├── research/                             
 │   └── data-samples/
 └── open-source/                 
     ├── audit-rubric/
