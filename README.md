@@ -177,7 +177,7 @@ I identified three distinct "narrative personalities" across the top models.
 *The "High Ceiling, High Floor" Model (Stable & Literary)*
 
 *   **Longest Voice Maintenance:** Zero drift over long contexts.
-*   **Best Constraint Intersection:** Handles complex layering (e.g., "Erectile Dysfunction" + "Synesthesia" + "Performance Anxiety" simultaneously).
+*   **Best Constraint Intersection:** Handles complex layering (e.g., "Eating Disorders" + "Synesthesia" + "Performance Anxiety" simultaneously).
 *   **Most Stable:** The last one to break under pressure.
 
 > **🔬 Researcher's Note: The Architecture Fit**
