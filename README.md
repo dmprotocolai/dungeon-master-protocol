@@ -1,3 +1,24 @@
+## 🚀 Quick Start
+
+**Want to kill Google Docs distractions?**
+1. Install [Tampermonkey](https://www.tampermonkey.net/)
+2. Copy a script from `scripts/`
+3. Paste it into a new Tampermonkey script
+4. Refresh your Google Doc
+
+**Want to export LMSYS logs?**
+1. Open Chrome DevTools (F12)
+2. Go to "Sources" → "Snippets"
+3. Paste `lmsys-scraper.js`
+4. Click "Run"
+
+**Want to test your own model?**
+1. Download `audit-rubric.md` from `open-source/`
+2. Fill it out after a 100+ turn test
+3. Compare results to the benchmarks
+
+---
+
 # Narrative AI Research Toolkit (Built on Spite)
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -245,6 +266,35 @@ This entire research project—6 million tokens, 3 CVE-level bugs, and the toolk
 **The Value Proposition:**
 I found critical infrastructure vulnerabilities using a browser console and a free laptop.
 **Imagine what I could find if you gave me access to the inside.**
+
+---
+
+## 🤝 How to Contribute
+
+**Found a new Google Docs annoyance?**
+Submit a PR with a new script to kill it.
+
+**Tested a model I haven't?**
+Submit your audit rubric results.
+
+**Built a tool using this framework?**
+Tag me on Twitter (@dmprotocol_ai) so I can feature it.
+
+---
+
+## ❓ FAQ
+
+**Q: Can I use this for commercial projects?**
+A: Code/scripts = yes (MIT). Research protocols = no (buy a license).
+
+**Q: Which model should I use?**
+A: See the benchmarks. Claude for stability, GPT for voice, Gemini for memory.
+
+**Q: How do I cite this research?**
+A: `The Dungeon Master Protocol (2025). Available at: https://github.com/dmprotocolai/dungeon-master-protocol`
+
+**Q: Do you do consulting?**
+A: Yes. See the Ko-Fi shop for services.
 
 ---
 
