@@ -31,7 +31,7 @@ Contact:
 
 Professional Inquiries: [LinkedIn](https://www.linkedin.com/in/dm-protocol-000124397/) 
 
-Twitter/X: [@dmprotocol.ai](https://twitter.com/dmprotocol.ai)
+Twitter/X: [@dmprotocol.ai](https://x.com/dmprotocol_ai)
 
 Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 
