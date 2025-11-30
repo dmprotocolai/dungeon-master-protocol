@@ -15,9 +15,8 @@ narrative-ai-toolkit/
 │   ├── charts/              
 │   └── data-samples/
 └── open-source/                 
-    ├── blank-template/
-    ├── benchmark-template/
     ├── audit-rubric/
+    ├── blank-template/
     └── toolkit-sample/
 ```
 
@@ -32,6 +31,15 @@ Professional Inquiries: [LinkedIn](https://www.linkedin.com/in/dm-protocol-00012
 Twitter/X: [@dmprotocol.ai](https://twitter.com/dmprotocol.ai)
 
 Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+
+---
+
+## 🛍️ Store & Services
+Do you want to use these protocols without reading 6 million tokens of logs?
+
+*   **☕ [Buy me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
+*   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
+*   **🛒 [Browse My Shop/Services]([LINK_HERE](https://ko-fi.com/dmprotocolai/shop))** - Browse my prompt packs or hire me to analyze your AI output.
 
 ---
 
@@ -207,7 +215,12 @@ I identified three distinct "narrative personalities" across the top models.
 
 ---
 
+## 📜 License & Usage
+This repository uses a dual-license structure:
 
+1.  **Code & Scripts:** Licensed under **MIT**. Hack away.
+2.  **Research Data & Narrative Protocols:** Licensed under **CC-BY-NC-ND 4.0**.
+    *   You **cannot** resell the templates or included logic.
+    *   You **cannot** use the research data to train commercial models without permission.
+    *   *If you want to use the Protocol for commercial projects (games, apps), please purchase a Commercial License via the [Ko-Fi Shop](https://ko-fi.com/dmprotocolai/shop).*
 
-## 📜 License
-MIT License. Use these scripts to reclaim your sanity.
