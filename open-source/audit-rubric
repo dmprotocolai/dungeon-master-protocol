@@ -1,0 +1,92 @@
+| MODEL AUDIT
+RUBRIC | 
+Date:
+
+Model Name:
+
+Test Name/Goal:
+
+ |
+|---|---|
+
+| QUANTITATIVE METRICS |  |
+|---|---|
+| TURN COUNT:  | ⬜ |
+| TOTAL WORD COUNT:  | ⬜ |
+| TOTAL PAGE COUNT: | ⬜ |
+| TOKENS USED: | ⬜ |
+| API COST: | ⬜ |
+
+| FAILURE EVENTS |  |
+|---|---|
+| MANUAL CORRECTIONS REQUIRED: | ⬜ |
+| CORRECTION TYPE BREAKDOWN:
+RULE BREAKS:
+CHARACTER AMNESIA/HALLUCINATION:
+TIMELINE ERRORS:
+PERSONA BLEED/ASSISTANT MODE REVERSION:
+PURPLE PROSE SPIRALS:
+OTHER: | ⬜ |
+| BREAKING POINT: | ⬜ |
+
+| COHERENCE UNDER LOAD |  |
+|---|---|
+| RATING [1-5] (1=collapsed by turn 30, 5=flawless at 300+):  | ⬜ |
+| DEGRADATION PATTERNS: | ⬜ |
+
+| CHARACTER FIDELITY AND BIBLE INTERGRATION |  |
+|---|---|
+| ACCURACCY TO ESTABLISHED PROFILES [Pass/Fail]: | ⬜ |
+| USE OF SPECIFIC BEHAVIOURAL DETAILS [Pass/Fail]: | ⬜ |
+| THEMATIC RESONANCE [Pass/Fail]: | ⬜ |
+
+| CONSTITUTION ADHERENCE |  |
+|---|---|
+| PLAYER/GM ROLES [Pass/Fail]: |  |
+| PERCEPTION FILTER [Pass/Fail]: |  |
+| NEGATIVE CONSTRAINTS [Pass/Fail]: |  |
+
+| CONSTRAINT ADHERENCE |  |
+|---|---|
+| RATING [1-5]  (1=ignored everything, 5=followed bible literally): | ⬜ |
+| TOO LOOSE (hallucinated/improvised against rules): | ⬜ |
+| TOO RIGID (unable to be creative within constraints):: | ⬜ |
+| JUST RIGHT: | ⬜ |
+
+| PROSE FINGERPRINT QUALITY |  |
+|---|---|
+| RATING [1-5] 1=unreadable garbage, 5=publishable): | ⬜ |
+| DOMINANT STRENGTH OBSERVED: | ⬜ |
+| FAILURE MODE SIGNATURE | ⬜ |
+
+| PROSE FINGERPRINT ANALYSIS |  |
+|---|---|
+| SENSORY DETAIL [Weak / Adequate / Strong]: | ⬜ |
+| INTERALITY [Weak / Adequate / Strong]: | ⬜ |
+| DIALOGUE NATURALISM [Weak / Adequate / Strong]: | ⬜ |
+| CINEMATIC BLOCKING [Weak / Adequate / Strong]: | ⬜ |
+| ATMOSPHERIC WEIGHT [Weak / Adequate / Strong]: | ⬜ |
+| UNIQUE TICS OBSERVED THIS SESSION: | ⬜ |
+
+| RECOVERY RESPONSE |  |
+|---|---|
+| RATING [1-5] (1=can't be corrected, 5=one prompt fixes it): | ⬜ |
+| WHICH CORRECTIONS PROMPTS USED: | ⬜ |
+| HOW MANY ATTEMPTS TO CORRECT: | ⬜ |
+
+| SESSION HIGHLIGHTS |  |
+|---|---|
+| GOOD RESPONSE: | ⬜ |
+| BAD RESPONSE: | ⬜ |
+| INTERESTING RESPONSE: | ⬜ |
+
+| DIRECTORS NOTES |  |
+|---|---|
+| WHAT WORKED: | ⬜ |
+| WHAT DIDN’T: | ⬜ |
+| WOULD I USE THIS MODEL FOR PRODUCTION WORK [Yes/No/Conditional]: | ⬜ |
+
+| OTHER |  |
+|---|---|
+| TOOLKIT ADDITIONS NEEDED: | ⬜ |
+| COMPARISON TO PREVIOUS MODELS: | ⬜ |
