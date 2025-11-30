@@ -1,3 +1,10 @@
+// ============================================================================
+// LMSYS CHAT EXPORTER (The "Save My Logs" Script)
+// Author: The Dungeon Master Protocol
+// Repo: https://github.com/dmprotocolai/dungeon-master-protocol
+// Support/Updates: https://ko-fi.com/dmprotocolai
+// ============================================================================
+
 javascript:(function(){
     // 1. Find bubbles
     const bubbles = document.querySelectorAll('.prose');
