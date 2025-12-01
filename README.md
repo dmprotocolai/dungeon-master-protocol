@@ -174,7 +174,7 @@ Despite stumbling into security issues, the core work is still about **narrative
 ### Prerequisites
 - Chrome/Firefox/Edge browser
 - [Tampermonkey extension](https://www.tampermonkey.net/)
-- A Google Docs account that's become unusable due to AI bloat
+- A Google Docs account that's become unusable due to UI bloat
 
 ## 🛠️ Part 1: The "Focus Mode" Scripts (Google Docs)
 *Target Audience: Narrative researchers, Neurodivergent folks, and anyone tired of "Clippy 2025".*
