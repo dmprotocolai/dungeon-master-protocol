@@ -1,21 +1,30 @@
 ## 🚀 Quick Start
 
-**Want to kill Google Docs distractions?**
+Narrative AI Research Toolkit is a collection of tools and protocols for long-form narrative AI work.
+It includes:
+– Browser scripts to declutter Google Docs and export LMSYS logs
+– An evaluation rubric and benchmarks for narrative models
+– A public index of my Narrative AI research (“Dungeon Master Protocol”).
+
+**Want to kill Google Docs distractions?** 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
-2. Copy a script from `scripts/`
+2. Copy a script from [`scripts/`](./scripts/)
 3. Paste it into a new Tampermonkey script
 4. Refresh your Google Doc
 
 **Want to export LMSYS logs?**
 1. Open Chrome DevTools (F12)
 2. Go to "Sources" → "Snippets"
-3. Paste `lmsys-scraper.js`
+3. Paste `lmsys-scraper`
 4. Click "Run"
 
 **Want to test your own model?**
-1. Download `audit-rubric.md` from `open-source/`
+1. Download `audit-rubric` from `open-source/`
 2. Fill it out after a 100+ turn test
 3. Compare results to the benchmarks
+
+The browser scripts and utilities are open-source (MIT).
+The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only (*see License section*).
 
 ---
 
@@ -26,7 +35,7 @@
 ![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
 ![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
 
-# Public Research Portfolio & Index
+## Public Research Portfolio & Index
 
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
 
@@ -60,12 +69,12 @@ Do you want to use these protocols without reading 6 million tokens of logs?
 narrative-ai-toolkit/
 ├── README.md                
 ├── scripts/                 
-│   ├── docs-gemini-killer.js
-│   ├── docs-autotitle.js
-│   ├── docs-focus-mode.js
-│   ├── docs-banish-tab-index.js
-│   ├── docs-banish-meetings-sidebar.js                     
-│   └── lmsys-scraper.js       
+│   ├── docs-gemini-killer
+│   ├── docs-autotitle
+│   ├── docs-focus-mode
+│   ├── docs-banish-tab-index
+│   ├── docs-banish-meetings-sidebar                    
+│   └── lmsys-scraper       
 ├── research/                             
 │   └── data-samples
 └── open-source/                 
@@ -96,6 +105,8 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 ### 1. The Gemini Banisher
 **What it does:** Murders the "Help me write" Gemini button on sight.
 **Why:** Because I don't need a sparkly button interrupting my train of thought.
+
+*"It looks like you're experiencing a moment of creative ambiguity. Would you like me to resolve that for you by generating a soulless, algorithmically optimized paragraph that vaguely resembles your original intent?"* 👀
 
 ### 2. The Focus Mode (ADHD Savior) 
 **What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on.
