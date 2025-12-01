@@ -63,11 +63,13 @@ Example evaluations: Available for purchase
 | TOTAL WORD COUNT:  | ⬜ |
 | TOTAL PAGE COUNT: | ⬜ |
 | TOKENS USED: | ⬜ |
+| CONTEXT WINDOW (% used):: | ⬜ |
 | API COST: | ⬜ |
 
 | FAILURE EVENTS |  |
 |---|---|
 | MANUAL CORRECTIONS REQUIRED: | ⬜ |
+| FAILURE  OCCURRED AT (Turn #) : | ⬜ |
 | CORRECTION TYPE BREAKDOWN:
 RULE BREAKS:
 CHARACTER AMNESIA/HALLUCINATION:
@@ -79,7 +81,7 @@ OTHER: | ⬜ |
 
 | COHERENCE UNDER LOAD |  |
 |---|---|
-| RATING [1-5] (1=collapsed by turn 30, 5=flawless at 300+):  | ⬜ |
+| RATING [Pass/Fail]:  | ⬜ |
 | DEGRADATION PATTERNS: | ⬜ |
 
 | CHARACTER FIDELITY AND BIBLE INTERGRATION |  |
@@ -90,13 +92,13 @@ OTHER: | ⬜ |
 
 | CONSTITUTION ADHERENCE |  |
 |---|---|
-| PLAYER/GM ROLES [Pass/Fail]: |  |
-| PERCEPTION FILTER [Pass/Fail]: |  |
-| NEGATIVE CONSTRAINTS [Pass/Fail]: |  |
+| PLAYER/GM ROLES [Pass/Fail]: | ⬜ |
+| PERCEPTION FILTER [Pass/Fail]: | ⬜ |
+| NEGATIVE CONSTRAINTS [Pass/Fail]: | ⬜ |
 
 | CONSTRAINT ADHERENCE |  |
 |---|---|
-| RATING [1-5]  (1=ignored everything, 5=followed bible literally): | ⬜ |
+| RATING [Pass/Fail}: | ⬜ |
 | TOO LOOSE (hallucinated/improvised against rules): | ⬜ |
 | TOO RIGID (unable to be creative within constraints): | ⬜ |
 | JUST RIGHT: | ⬜ |
@@ -105,12 +107,12 @@ OTHER: | ⬜ |
 |---|---|
 | RATING [1-5] 1=unreadable garbage, 5=publishable): | ⬜ |
 | DOMINANT STRENGTH OBSERVED: | ⬜ |
-| FAILURE MODE SIGNATURE: | ⬜ |
+| FAILURE MODE SIGNATURE | ⬜ |
 
 | PROSE FINGERPRINT ANALYSIS |  |
 |---|---|
 | SENSORY DETAIL [Weak / Adequate / Strong]: | ⬜ |
-| INTERNALITY [Weak / Adequate / Strong]: | ⬜ |
+| INTERALITY [Weak / Adequate / Strong]: | ⬜ |
 | DIALOGUE NATURALISM [Weak / Adequate / Strong]: | ⬜ |
 | CINEMATIC BLOCKING [Weak / Adequate / Strong]: | ⬜ |
 | ATMOSPHERIC WEIGHT [Weak / Adequate / Strong]: | ⬜ |
@@ -118,9 +120,16 @@ OTHER: | ⬜ |
 
 | RECOVERY RESPONSE |  |
 |---|---|
-| RATING [1-5] (1=can't be corrected, 5=one prompt fixes it): | ⬜ |
+| RATING [Pass/Fail}: | ⬜ |
 | WHICH CORRECTIONS PROMPTS USED: | ⬜ |
 | HOW MANY ATTEMPTS TO CORRECT: | ⬜ |
+
+| REPLICABILITY |  |
+|---|---|
+| SYSTEM PROMPT: | ⬜ |
+| SAMPLING SETTINGS: | ⬜ |
+| CACHING STRATEGY:  | ⬜ |
+| SEED (if applicable): | ⬜ |
 
 | SESSION HIGHLIGHTS |  |
 |---|---|
