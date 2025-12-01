@@ -100,6 +100,25 @@ Use these for version control and GitHub-based workflows:
 
 ---
 
+## 📋 How To Use This Rubric
+
+**Before you start:**
+- Define your test goal (e.g., "Can this model write a 300-turn romance?")
+- Prepare your story bible/prompt
+- Set up tracking (copy this template into a doc)
+
+**During the test:**
+- Fill out metrics as you go
+- Copy/paste good/bad responses into "Session Highlights"
+- Note when corrections are needed
+
+**After the test:**
+- Complete all sections
+- Compare to other models (see `/examples/`)
+- Decide: would you use this in production?
+
+---
+
 ## 🆓 "But Can't I Just Figure It Out From The Free Version?"
 
 **Yes!** That's the point.
