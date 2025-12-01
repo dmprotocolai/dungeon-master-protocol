@@ -4,7 +4,9 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
 ![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
-![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
+![White Paper](https://img.shields.io/badge/White_Paper-Pre--Print_Pending-orange)
+![CVEs](https://img.shields.io/badge/CVEs_Submitted-3-critical)
+![Research Status](https://img.shields.io/badge/Research-Active-brightgreen)
 
 > *A collection of tools and protocols for long-form narrative AI work—built on spite, powered by 6 million tokens of obsession.*
 
@@ -14,14 +16,14 @@
 - [Quick Start](#-quick-start)
 - [About This Research](#-about-this-research)
 - [Repository Structure](#-repository-structure)
-- [The Motivation](#-the-motivation)
+- [Why This Exists](#-why-this-exists)
 - [Part 1: Google Docs Scripts](#️-part-1-the-focus-mode-scripts-google-docs)
 - [Part 2: LMSYS Scraper](#-part-2-the-lmsys-scraper)
 - [Part 3: Research & Findings](#-part-3-research--findings-the-charts)
 - [Model Benchmarks](#-model-benchmarks-narrative-performance)
 - [How to Contribute](#-how-to-contribute)
 - [FAQ](#-faq)
-- [Store & Services](#️-store--services)
+- [Support This Work](#️-support-this-work)
 - [License](#-license--usage)
 - [Contact](#-contact)
 
@@ -296,8 +298,16 @@ This entire research project—6 million tokens, 3 CVE-level bugs, and the toolk
     *   *Note: Thank you to Google for providing the seed funding to stress-test your own infrastructure.*
 
 **The Value Proposition:**
-I found critical infrastructure vulnerabilities using a browser console and a cheap laptop.
-**Imagine what I could find if you gave me access to the inside.**
+Using only a 2019 Chromebook, browser console tools, and free-tier compute:
+- ✅ Identified **3 production CVEs** (currently in responsible disclosure)
+- ✅ Stress-tested 6 million tokens across 8+ models
+- ✅ Developed novel evaluation frameworks for narrative coherence
+- ✅ Produced white papers for academic pre-print
+
+**For Security Teams / AI Labs:**  
+I found critical vulnerabilities in your production systems using tools available to any motivated researcher. If you want to know what else might be out there, let's talk.
+
+**Contact:** [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 
 ---
 
@@ -314,6 +324,24 @@ Tag me on Twitter (@dmprotocol_ai) so I can feature it.
 
 ---
 
+## 🤝 Collaboration Opportunities
+
+I'm open to:
+- **Security consulting** for AI infrastructure teams
+- **Research collaborations** on narrative AI & long-context coherence
+- **Speaking engagements** on AI safety, security, or evaluation methodologies
+- **Academic partnerships** for formal publication of findings
+
+**Current Research Focus:**
+- Long-context narrative coherence
+- AI security vulnerabilities in production systems  
+- Constitutional AI vs. RLHF architectural analysis
+- Diagnostic-driven prompt engineering
+
+**Contact:** [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+
+---
+
 ## ❓ FAQ
 
 **Q: Can I use this for commercial projects?**
@@ -327,6 +355,18 @@ A: `The Dungeon Master Protocol (2025). Available at: https://github.com/dmproto
 
 **Q: Do you do consulting?**
 A: Yes. See the Ko-Fi shop for services.
+
+**Q: Can I cite your white papers?**  
+A: Pre-prints will be available on [arXiv/bioRxiv/appropriate service] in January 2025. Check back for citation info.
+
+**Q: What were the CVEs you found?**  
+A: Full technical details will be published after the responsible disclosure period ends and patches are deployed.
+
+**Q: Are you affiliated with a research institution?**  
+A: Independent researcher. Open to institutional partnerships.
+
+**Q: How did you find CVEs with just a Chromebook?**  
+A: Turns out you don't need a datacenter to stress-test production APIs. You just need time, obsession, and 6 million tokens of curiosity.
 
 ---
 
