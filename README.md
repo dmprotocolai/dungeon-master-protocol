@@ -1,10 +1,23 @@
+
+# Narrative AI Research Toolkit (Built on Spite)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
+![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
+![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
+
+> *A collection of tools and protocols for long-form narrative AI work—built on spite, powered by 6 million tokens of obsession.*
+
+---
+
 ## 🚀 Quick Start
 
-Narrative AI Research Toolkit is a collection of tools and protocols for long-form narrative AI work. It includes:
-
-* Browser scripts to declutter Google Docs and export LMSYS logs
-* An evaluation rubric and benchmarks for narrative models
-* A public index of my Narrative AI research (“Dungeon Master Protocol”).
+## 📋 Table of Contents
+- [Quick Start](#-quick-start)
+- [Google Docs Scripts](#️-part-1-the-focus-mode-scripts)
+- [LMSYS Scraper](#-part-2-the-lmsys-scraper)
+- [Research Findings](#-part-3-research--findings)
+- [License](#-license--usage)
 
 **Want to kill Google Docs distractions?** 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
@@ -28,13 +41,6 @@ The full narrative protocol and research logic are partially proprietary and lic
 
 ---
 
-# Narrative AI Research Toolkit (Built on Spite)
-
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
-![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
-![Paper Status](https://img.shields.io/badge/White_Paper-Under_Review-orange)
-
 ## Public Research Portfolio & Index
 
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
@@ -44,23 +50,6 @@ Welcome. This repository serves as a public index for my acknowledged contributi
 ## 🧐 About This Research
 
 My private research, including methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source.
-
-Contact:
-
-Professional Inquiries: [LinkedIn](https://www.linkedin.com/in/dm-protocol-000124397/) 
-
-Twitter/X: [@dmprotocol.ai](https://x.com/dmprotocol_ai)
-
-Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
-
----
-
-## 🛍️ Store & Services
-Do you want to use these protocols without reading 6 million tokens of logs?
-
-*   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
-*   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
-*   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
 
 ---
 
@@ -85,7 +74,7 @@ narrative-ai-toolkit/
 
 ---
 
-## 🤬 The Motivation
+## 🤬 Why This Exists
 I work with Narrative AI. I need my tools to work, not sparkle. 
 
 I wrote this collection of scripts because Google Docs has become a bloatware nightmare of "AI assistants" I didn't ask for, and sidebars that steal my screen real estate. 
@@ -96,6 +85,13 @@ This repository contains:
 3.  **Research Data:** Model comparisons, prose fingerprints, and analysis of Narrative AI performance.
 
 ---
+
+## What's Included
+
+### Prerequisites
+- Chrome/Firefox/Edge browser
+- [Tampermonkey extension](https://www.tampermonkey.net/)
+- A Google Docs account that's become unusable due to AI bloat
 
 ## 🛠️ Part 1: The "Focus Mode" Scripts (Google Docs)
 *Target Audience: Narrative researchers, Neurodivergent folks, and anyone tired of "Clippy 2025".*
@@ -199,12 +195,12 @@ We tested the models listed below on creative prose generation.
 | **Gemini 2.5 Pro** | **Near-Perfect Memory:** Recalls details from massive windows.<br>**Logical Consistency:** Adheres to complex timelines. | **Creative Degradation:** Prone to "adverb loops" over time.<br>**Flat Prose:** Lacks poetic voice. | **World Architect**<br>*(Best for foundations & continuity)* |
 | **Qwen3-235B** | **High Quality Open Source:** Decent voice and prose. | **Limited Context:** Cannot handle deep nuance without course correction. | **The Pilot Episode**<br>*(Good for short scenes/smaller projects)* |
 | **Llama 3 70B** | **Flexible Engine:** Powerful open source base. | **Limited Context:** Memory decay is too rapid for this protocol. | **Not Recommended**<br>*(Context window insufficient)* |
-| **Grok 3** | N/A | **Persona Bleed:** "Snarky" personality contaminates characters.<br>**Hostile Architecture:** Ignores negative constraints. | **Unsuitable**<br>*(Do not use for creative writing)* |
+| **Grok 3** | *None identified* | **Persona Bleed:** "Snarky" personality contaminates characters.<br>**Hostile Architecture:** Ignores negative constraints. | **Unsuitable**<br>*(Do not use for creative writing)* |
 | **Mistral 7B** | **Good Generalist:** Decent performance. | **Insufficient Memory:** Cannot handle the demands of this protocol. | **Not Recommended** |
 | **Deepseek-R1** | N/A | **Basic Outputs:** Lacks sophistication.<br>**Small Context:** Unsuitable. | **Unsuitable** |
-| **Gemini 3** | ??? | ??? | *Testing in Progress* 🚧 |
-| **GPT-5.1** | ??? | ??? | *Testing in Progress* 🚧 |
-| **Opus 4.5** | ??? | ??? | *Testing in Progress* 🚧 |
+| **Gemini 3** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
+| **GPT-5.1** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
+| **Opus 4.5** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025*  |
 
 
 ## 🧬 Model "Prose Fingerprints"
@@ -266,21 +262,23 @@ I identified three distinct "narrative personalities" across the top models.
 ---
 
 ## 📚 The Dataset: 3 Months, 6 Million Tokens
-I touched AI for the first time 3 months ago. I thought GPT was just a "chatbot search engine for people too lazy to use keywords."
+I touched AI for the first time 3 months ago. I thought GPT was just a "chatbot search engine for people too lazy to use keywords.
 
 I was wrong. I became obsessed.
 
 This repository isn't a random collection; it is the result of a compressed, high-intensity stress test of the current SOTA landscape.
 
-### 📉 The Volume (and counting)
-> **Total Pages:** 11,980
-> **Total Words:** 4,397,345
-> **Total Tokens:** 6,055,104
-
+| Metric | Volume |
+|--------|--------|
+| **Pages** | 11,980 |
+| **Words** | 4,397,345 |
+| **Tokens** | 6,055,104 |
+| **Time** | 3 months |
+| **Budget** | $425 + free tiers |
 ---
 
-## 💻 The Infrastructure (Low Resource / High Impact)
-This entire research project—6 million tokens, 3 CVE-level bugs, and the toolkit—was built with **$0 budget**.
+## 💻 Low Resource Research Note
+This entire research project—6 million tokens, 3 CVE-level bugs, and the toolkit—was built while underfunded.
 
 *   **The Hardware:** A 2019 Chromebook ("The Plastic Slab").
 *   **The Compute:** Free tiers on LMSYS & HuggingFace.
@@ -288,7 +286,7 @@ This entire research project—6 million tokens, 3 CVE-level bugs, and the toolk
     *   *Note: Thank you to Google for providing the seed funding to stress-test your own infrastructure.*
 
 **The Value Proposition:**
-I found critical infrastructure vulnerabilities using a browser console and a free laptop.
+I found critical infrastructure vulnerabilities using a browser console and a cheap laptop.
 **Imagine what I could find if you gave me access to the inside.**
 
 ---
@@ -322,6 +320,18 @@ A: Yes. See the Ko-Fi shop for services.
 
 ---
 
+---
+
+## 🛍️ Support This Work
+Do you want to use these protocols without reading 6 million tokens of logs?
+
+*   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
+*   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
+*   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
+
+
+---
+
 ## 📜 License & Usage
 This repository uses a dual-license structure:
 
@@ -329,5 +339,16 @@ This repository uses a dual-license structure:
 2.  **Research Data & Narrative Protocols:** Licensed under **CC-BY-NC-ND 4.0**.
     *   You **cannot** resell the templates or included logic.
     *   You **cannot** use the research data to train commercial models without permission.
-    *   *If you want to use the Protocol for commercial projects (games, apps), please purchase a Commercial License via the [Ko-Fi Shop](https://ko-fi.com/dmprotocolai/shop).*
+      
+**TL;DR:** The tools are free. The research insights require a license for commercial use. 
+
+---
+
+Contact:
+
+Twitter/X: [@dmprotocol.ai](https://x.com/dmprotocol_ai)
+
+Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+
+
 
