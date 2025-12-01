@@ -112,7 +112,8 @@ text
 narrative-ai-toolkit/
 ├── README.md                
 ├── scripts/
-│   ├── license-code.txt           
+│   ├── license-code.txt
+│   ├── README.md            
 │   ├── google-docs/                   
 │   │   ├── gemini-killer.js
 │   │   ├── auto-title.js
