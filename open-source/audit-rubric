@@ -1,3 +1,59 @@
+# Narrative AI Evaluation Rubric
+
+A systematic framework for evaluating long-form narrative AI performance across multiple dimensions.
+
+## Overview
+
+This rubric was developed through 6 million tokens of testing across 8+ models. It provides reproducible, multi-dimensional evaluation of narrative AI quality.
+
+## Evaluation Dimensions
+
+### 1. Quantitative Metrics
+- Turn count
+- Token usage
+- Cost analysis
+- Failure event count
+
+### 2. Coherence Under Load
+- Rating scale (1-5)
+- Degradation patterns
+- Breaking point identification
+
+### 3. Constraint Adherence
+- Too loose (hallucinations)
+- Too rigid (mechanical)
+- Just right (creative within constraints)
+
+### 4. Prose Fingerprint Analysis
+- Sensory detail
+- Internality
+- Dialogue naturalism
+- Cinematic blocking
+- Atmospheric weight
+
+### 5. Recovery Response
+- Correction efficiency
+- Protocol compliance
+- Error pattern analysis
+
+## Usage
+
+[Link to blank template]
+[Link to example evaluations]
+[Link to methodology guide]
+
+## Citation
+
+If you use this rubric in your research, please cite:
+[The Dungeon Master Protocol](https://github.com/dmprotocolai/dungeon-master-protocol)
+
+## License
+
+Rubric template: CC-BY-4.0 (free to use with attribution)
+Example evaluations: Available for purchase
+
+---
+
 | MODEL AUDIT
 RUBRIC | 
 Date:
