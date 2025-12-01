@@ -415,6 +415,9 @@ I'm open to:
 
 ---
 
+<details>
+<summary><strong>Click to view the FAQ</strong></summary>
+
 ## ❓ FAQ
 
 **Q: Can I use this for commercial projects?**
@@ -458,6 +461,8 @@ A: Creative writing and journalism. I touched AI for the first time 3 months ago
 
 **Q: Are you going to do more security research?**  
 A: Not on purpose. But if I find something else by accident, yeah I'll report it.
+
+</details>
 
 ---
 
@@ -505,6 +510,7 @@ Want to use the research protocols in your game/app/business?
 **Security findings:** Reported through proper channels. Do not attempt to replicate.
 
 **Questions?** Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+
 ---
 
 ## 📧 Contact
