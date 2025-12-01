@@ -120,7 +120,8 @@ narrative-ai-toolkit/
 │   ├── docs-banish-meetings-sidebar                    
 │   └── lmsys-scraper       
 ├── research/
-│   ├── license-research.txt                             
+│   ├── license-research.txt
+│   ├── data-manifest                            
 │   └── data-samples
 ├── ai-security-research/
 │   ├── README.md 
@@ -361,6 +362,9 @@ This repository isn't a random collection; it is the result of a compressed, hig
 | **Tokens** | 6,055,104 |
 | **Time** | 3 months |
 | **Budget** | $425 + free tiers |
+
+I didn't just chat. I kept receipts. View the full [`data-manifest/`](./research/data-manifest) here.
+
 ---
 
 ## 💻 Low Resource Research Note
