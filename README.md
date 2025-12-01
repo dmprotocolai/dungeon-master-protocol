@@ -94,10 +94,10 @@ My private research, including methodologies for maintaining long-term narrative
 - **"The “Dungeon Master” Protocol: A User-Developed Framework for High-Fidelity AI Storytelling"**  
   *Status:* Submitting to pre-print server (January 2025)
   
-- **"Constitutional AI vs. RLHF: Architectural Determinants of Narrative Stability"**  
+- **"The “Dungeon Master” Protocol: Beyond Helpfulness - Constraint-Based Literary Voice in Large Language Models"**  
   *Status:* In preparation
 
-- **"The Dungeon Master Protocol: A Framework for Constraint-Based Narrative AI"**  
+- **"The Dungeon Master Protocol: Building the Bars In Bureaucracy - Procedural Constraint Design for Long-Context Narratives."**  
   *Status:* In preparation
 
 *Pre-prints will be linked here upon publication.*
