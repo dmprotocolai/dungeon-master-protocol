@@ -179,23 +179,26 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 
 ### 1. The Gemini Banisher
 **What it does:** Murders the "Help me write" Gemini button on sight.
-**Why:** Because I don't need a sparkly button interrupting my train of thought.
+**Why:** Because I don't need a sparkly Clippy 2025 interrupting my train of thought.
 
 > *"It looks like you're experiencing a moment of creative ambiguity.  
 > Would you like me to resolve that for you by generating a soulless,  
 > algorithmically optimized paragraph that vaguely resembles your original intent?"* 👀
 
+**For the younger folks:** Clippy was Microsoft's 1997 attempt at "AI assistance." It was universally hated. This is that, but with more parameters.
+
 ### 2. The Focus Mode (ADHD Savior) 
-**What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on. Use Alt + Z to toggle on/off.
+**What it does:** Uses two adjustable digital "shutters" to dim everything on the screen except the page you are currently writing on. Use Alt + Z to toggle on/off. **Why:** I like CalmlyWriter, but not having an autosave feature makes me sad. 
 
 ### 3. Sidebar Assassins (Tab Index & Meetings)
 **What it does:**
 *   Removes the "Tab Index" sidebar (laggy, unnecessary).
 *   Removes the "Meetings" sidebar (blocks the scroll bar, useless).
+**Why:** Because visual clutter and lag must die.
 
 ### 4. The Auto-Titler
 **What it does:** Renames the file automatically to a sortable, time stamped title, e.g. Lab Notes: YYYY - MM - DD 00:00:00.
-**Why:** To save me from `Untitled Document (345)` hell.
+**Why:** To save me from `Untitled Document (345)` hell. Will I ever remember to title a Doc? Never.
 
 ### 💻 How to use the Docs Scripts
 1.  Download [Tampermonkey](https://www.tampermonkey.net/).
@@ -423,7 +426,7 @@ A: `The Dungeon Master Protocol (2025). Available at: https://github.com/dmproto
 A: Yes. See the Ko-Fi shop for services.
 
 **Q: Can I cite your white papers?**  
-A: Pre-prints will be available on [arXiv/bioRxiv/appropriate service] in January 2025. Check back for citation info.
+A: Pre-prints will be available on [arXiv/bioRxiv/appropriate service] in January 2026. Check back for citation info.
 
 **Q: What were the CVEs you found?**  
 A: Full technical details will be published after the responsible disclosure period ends and patches are deployed.
