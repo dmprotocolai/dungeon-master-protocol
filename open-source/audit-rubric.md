@@ -48,12 +48,12 @@ Example evaluations: Available for purchase
 
 ---
 
-┌──────────────────────────────────────────┐
-│     MODEL AUDIT RUBRIC                   │
-│     Model: [Model Name]                  │
-│     Test: [Test Name]                    │
-│     Date: [Date]                         │
-└──────────────────────────────────────────┘
+# MODEL AUDIT RUBRIC
+
+**Model:** [Model Name]  
+**Test:** [Test Name]  
+**Date:** [Date]  
+**Test Type:** [Long-form / Short-form / Stress Test]
 
 |---|---|
 
@@ -148,16 +148,15 @@ OTHER: | ⬜ |
 | TOOLKIT ADDITIONS NEEDED: | ⬜ |
 | COMPARISON TO PREVIOUS MODELS: | ⬜ |
 
-───────────────────────────────────────────────────────────────────────
-NARRATIVE-EVAL Rubric v1.0  |  MIT License  |  DM Protocol Research (2025)
-github.com/dmprotocolai  |  Last updated: Dec 2025
+## FINAL RECOMMENDATION
 
+> **Production Ready:** [Yes / No / With Caveats]  
+> **Best Use Case:** [                                                    ]  
+> **Avoid For:** [                                                        ]  
+> **Overall Grade:** [A / B / C / D / F]
 
+---
 
+*NARRATIVE-EVAL Rubric v1.0 • MIT License • DM Protocol Research (2025)*  
+*[github.com/dmprotocolai](https://github.com/dmprotocolai) • Last updated: December 2025*
 
-
-
-
-
-
-''
