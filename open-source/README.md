@@ -1,7 +1,7 @@
 # Open Source Resources
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Templates](https://img.shields.io/badge/Templates-4-blue)
+![Templates](https://img.shields.io/badge/Templates-3-blue)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 Free templates and tools from the Dungeon Master Protocol research project.
@@ -10,28 +10,28 @@ Free templates and tools from the Dungeon Master Protocol research project.
 
 | File | Description | Format |
 |------|-------------|--------|
-| `audit-rubric` | Blank evaluation template for testing narrative AI | Markdown |
-| `blank-template` | Empty story bible structure (genre-agnostic) | Markdown |
-| `toolkit-sample` | Example prompts from the Director's Toolkit | Markdown |
+| `audit-rubric.md` | Blank evaluation template for testing narrative AI | Markdown |
+| `blank-template.md` | Empty story bible structure (genre-agnostic) | Markdown |
+| `toolkit-sample.md` | Example prompts from the Director's Toolkit | Markdown |
 
 ---
 
 ## 🚀 Quick Start
 
 ### **To Evaluate A Model:**
-1. Download `audit-rubric` 
+1. Download `audit-rubric.md` 
 2. Run a 100+ turn conversation with your AI
 3. Fill out the rubric as you go
 4. Compare results to [benchmarks](../research/data-samples/)
 
 ### **To Build A Story World:**
-1. Download `blank-template`
+1. Download `blank-template.md`
 2. Fill in your character profiles, world documents, and narrative devices
 3. Feed sections to your AI as context
 4. Use the Director's Toolkit prompts to guide scenes
 
 ### **To Try The Prompts:**
-1. Check out `toolkit-sample` for example commands
+1. Check out `toolkit-sample.md` for example commands
 2. Copy prompts into your AI conversation
 3. Modify for your specific story/world
 
@@ -57,16 +57,16 @@ Free templates and tools from the Dungeon Master Protocol research project.
 
 ## 💰 Want The Full Version?
 
-**"The Author's Toolkit"** - $49 on Ko-Fi
+**"The Author's Toolkit"** - $49 on Ko-Fi (coming soon)
 
 Includes:
 - ✅ Everything in the free template
-- ✅ 475,000 words of filled examples
 - ✅ Step-by-step methodology guide
 - ✅ 20+ genre-specific document templates
 - ✅ Model selection guide (which AI works best)
 - ✅ Troubleshooting & recovery protocols
-- ✅ Video walkthrough of the system
+- ✅ Audit rubric with instructions (.docx/.PDF/.md)
+- ✅ .PDF walkthrough of the system
 
 [Get The Full Toolkit →](https://ko-fi.com/s/fcdf60a3d6)
 
