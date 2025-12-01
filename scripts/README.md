@@ -17,7 +17,7 @@ This folder contains the custom scripts I wrote to fix the User Interfaces of Go
 ---
 
 ## 📝 Section 1: The Google Docs "Murder" Suite
-*Located in: `/scripts/`*
+*Located in: `/google-docs/`*
 
 Google Docs has become unusable for neurodivergent writers due to visual clutter. These scripts strip it back to a typewriter interface.
 
