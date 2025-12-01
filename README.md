@@ -54,58 +54,40 @@ While stress-testing models for long-form storytelling (500-1000+ turn conversat
 
 ## 🚀 Quick Start
 
-**Want to kill Google Docs distractions?** 
-1. Install [Tampermonkey](https://www.tampermonkey.net/)
-2. Copy a script from [`scripts/`](./scripts/)
-3. Paste it into a new Tampermonkey script
-4. Refresh your Google Doc
+## 🚀 Quick Start
 
-**Want to export LMSYS logs?**
-1. Open Chrome DevTools (F12)
-2. Go to "Sources" → "Snippets"
-3. Paste `lmsys-scraper` from [`scripts/`](./scripts/)
-4. Click "Run"
+**Never used this before? Start here:**
+👉 [Kill Google Docs bloat in 2 minutes](#%EF%B8%8F-part-1-the-focus-mode-scripts-google-docs)
 
-**Want to test your own model?**
-1. Download `audit-rubric` from [`open-source/`](./open-source/)
-2. Fill it out after a 100+ turn test
-3. Compare results to the benchmarks
+**Already know what you need?**
+- [Export LMSYS logs](#-part-2-the-lmsys-scraper)
+- [Test your own model](#-model-benchmarks-narrative-performance)
 
 The browser scripts and utilities are open-source (MIT).
 The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only. See [License](#-license--usage) for details.
 
 ---
 
-## Public Research Portfolio & Index
+## 🧐 About This Research
 
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
 
----
-
-## 🧐 About This Research
-
-My private research, including methodologies for maintaining long-term narrative and persona coherence (The "Dungeon Master Protocol"), is considered a proprietary trade secret and is not available for public review. Some elements are available as open source.
+**Open Source:** All tools, scripts, and evaluation rubrics (MIT License)
+**Open Research:** Methodologies, findings, and datasets (Non-commercial CC license)
+**Commercial Tools:** Production-ready prompt templates available for licensing
 
 ---
 
 ## 📑 Publications & Pre-Prints
 
-### In Progress:
-- **"The “Dungeon Master” Protocol: A User-Developed Framework for High-Fidelity AI Storytelling"**  
-  *Status:* Submitting to pre-print server (January 2025)
-  
-- **"The “Dungeon Master” Protocol: Beyond Helpfulness - Constraint-Based Literary Voice in Large Language Models"**  
-  *Status:* In preparation
-
-- **"The Dungeon Master Protocol: Building the Bars In Bureaucracy - Procedural Constraint Design for Long-Context Narratives"**  
-  *Status:* In preparation
-
-- **"The Dungeon Master Protocol: A Systematic Rubric for Evaluating Long-Form Narrative AI"**  
-  *Status:* In preparation
+**Coming January 2025:**
+- White paper on the Dungeon Master Protocol
+- Full technical methodology (pre-print server TBD)
 
 *Pre-prints will be linked here upon publication.*
 
 ---
+
 ```
 text
 ## 📂 Repository Structure
@@ -169,8 +151,9 @@ Despite stumbling into security issues, the core work is still about **narrative
 - Can AI maintain character voice over 500+ turns?
 - Which models handle complex emotional subtext?
 - How do different architectures handle constraint adherence?
+- Do constraints affect the quality of prose?
 
-**Models tested:** GPT-4, GPT-5, Claude Sonnet 4.5, Gemini 2.5 Pro, Qwen, Llama, Mistral, Grok, DeepSeek
+**Models tested:** GPT-4o, GPT-5, Claude Sonnet 4.5, Gemini 2.5 Pro, Qwen, Llama, Mistral, Grok, DeepSeek
 
 ---
 
@@ -194,7 +177,7 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 > Would you like me to resolve that for you by generating a soulless,  
 > algorithmically optimized paragraph that vaguely resembles your original intent?"* 👀
 
-**For the younger folks:** Clippy was Microsoft's 1997 attempt at "AI assistance." It was universally hated. This is that, but with more parameters.
+**For the younger folks:** Clippy was Microsoft's 1997 attempt at "AI assistance." It was universally *hated*. This is that, but with more parameters.
 
 ### 2. The Focus Mode (ADHD Savior) 
 **What it does:** Uses two adjustable digital "shutters" to dim everything on the screen except the page you are currently writing on. Use Alt + Z to toggle on/off. **Why:** I like CalmlyWriter, but not having an autosave feature makes me sad. 
@@ -206,13 +189,13 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 **Why:** Because visual clutter and lag must die.
 
 ### 4. The Auto-Titler
-**What it does:** Renames the file automatically to a sortable, time stamped title, e.g. Lab Notes: YYYY - MM - DD 00:00:00.
+**What it does:** Renames the file automatically to a sortable, time stamped title, e.g. `Lab Notes: YYYY - MM - DD 00:00:00`.
 **Why:** To save me from `Untitled Document (345)` hell. Will I ever remember to title a Doc? Never.
 
 ### 💻 How to use the Docs Scripts
 1.  Download [Tampermonkey](https://www.tampermonkey.net/).
 2.  Click the icon in the extension toolbar and click 'Create a new script'.
-3.  Paste the script from [`scripts/`](./scripts/) and hit File > Save.
+3.  Paste the script from [`google-docs/`](./google-docs/) and hit File > Save.
 4.  Refresh your Doc, script should now be active. 
 
 ---
@@ -233,7 +216,7 @@ LMSYS [LMarena](https://lmarena.ai/) provides free access to SOTA models (GPT-4,
 *   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder.
 
 **Usage:**
-> Copy the code from `scripts/lmsys-scraper`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
+> Copy the code from `scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting and even more sanity.
 
 **Example Metadata:**
 ```
@@ -244,7 +227,7 @@ Total Characters: 3,735,231
 Est. Tokens: ~933,808
 ====================
 ```
-> Yes, this was from a real log, not a toy example. Yes, it did almost hit a million tokens. No, I am not okay.
+> Yes, this was from a real log, not a toy example. Yes, it did almost hit a million tokens. No, I am not okay. Thanks for asking.
 
 ---
 
@@ -317,7 +300,7 @@ I identified three distinct "narrative personalities" across the top models.
 > **🔬 Researcher's Note: The Architecture Fit**
 > Why is Claude so stable? It likely comes down to **Constitutional AI**.
 > *   Claude is trained to critique its own outputs against a set of principles (a constitution).
-> *   **The Fit:** My narrative system (The Bible, The Rules, The Negative Constraints) effectively acts as an external "Constitution."
+> *   **The Fit:** My narrative system (The Story Bible, The Rules, The Negative Constraints) effectively acts as an external "Constitution."
 > *   Claude is architecturally designed to execute exactly this kind of rule-bound self-monitoring.
 
 ### 🥈 SILVER: GPT-5
@@ -365,7 +348,8 @@ This repository isn't a random collection; it is the result of a compressed, hig
 | **Words** | 4,397,345 |
 | **Tokens** | 6,055,104 |
 | **Time** | 3 months |
-| **Budget** | $425 + free tiers |
+| **Budget** | $425 (+ creative use of free tiers) |
+| **Value** | Est. $12,000+ in compute if paid retail |
 
 I didn't just chat. I kept receipts. View the full [`data-manifest/`](./research/data-manifest) here.
 
@@ -481,8 +465,6 @@ This research is unfunded. Support keeps it going. If you find it useful:
 *   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
 *   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
 *   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
-
-**Full disclosure:** I'm still figuring out pricing. I'm a writer, not a businessperson.
 
 ---
 
