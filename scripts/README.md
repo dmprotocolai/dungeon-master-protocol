@@ -10,7 +10,8 @@ This folder contains the custom scripts I wrote to fix the User Interfaces of Go
 | :--- | :--- | :--- | :--- |
 | **Docs UI** | `gemini-killer.js` | **Google Docs** | 🟢 Working |
 | **Docs UI** | `focus-mode.js` | **Google Docs** | 🟢 Working |
-| **Docs UI** | `sidebar-assassin.js` | **Google Docs** | 🟢 Working |
+| **Docs UI** | `banish-meetings-sidebar.js` | **Google Docs** | 🟢 Working |
+| **Docs UI** | `banish-tab-index.js` | **Google Docs** | 🟢 Working |
 | **Utility** | `auto-title.js` | **Google Docs** | 🟢 Working |
 | **Data** | `lmsys-scraper.js` | **LMSYS / Chatbot Arena** | 🟢 Working |
 
