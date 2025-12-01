@@ -10,8 +10,6 @@
 
 ---
 
-## 🚀 Quick Start
-
 ## 📋 Table of Contents
 - [Quick Start](#-quick-start)
 - [About This Research](#-about-this-research)
@@ -26,6 +24,8 @@
 - [Store & Services](#️-store--services)
 - [License](#-license--usage)
 - [Contact](#-contact)
+
+## 🚀 Quick Start
 
 **Want to kill Google Docs distractions?** 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
@@ -45,7 +45,7 @@
 3. Compare results to the benchmarks
 
 The browser scripts and utilities are open-source (MIT).
-The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only [LICENSE-CODE.txt](./LICENSE-CODE.txt).
+The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only. See [License](#-license--usage) for details.
 
 ---
 
@@ -272,7 +272,7 @@ I identified three distinct "narrative personalities" across the top models.
 ---
 
 ## 📚 The Dataset: 3 Months, 6 Million Tokens
-I touched AI for the first time 3 months ago. I thought GPT was just a "chatbot search engine for people too lazy to use keywords.
+I touched AI for the first time 3 months ago. I thought GPT was just a "chatbot search engine for people too lazy to use keywords."
 
 I was wrong. I became obsessed.
 
@@ -372,11 +372,12 @@ Want to use the research protocols in your game/app/business?
 **Questions?** Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 ---
 
-## ☎️ Contact:
+## 📧 Contact
 
-Twitter/X: [@dmprotocol.ai](https://x.com/dmprotocol_ai)
+- **Twitter/X:** [@dmprotocol_ai](https://x.com/dmprotocol_ai)
+- **Email:** [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+- **LinkedIn:** [DM Protocol](https://www.linkedin.com/in/dm-protocol-000124397/)
 
-Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
+---
 
-
-
+*Built on spite. Maintained with obsession. Licensed with clarity.*
