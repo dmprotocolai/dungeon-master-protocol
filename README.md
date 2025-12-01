@@ -221,7 +221,7 @@ Feel free to fork this. If you find a new annoying UI element in Google Docs, su
 ## 🤖 Part 2: The LMSYS Scraper
 *Target Audience: AI evaluators and data hoarders.*
 
-LMSYS is great, but the logs are unstable and hard to export. This script runs in your browser console. Save your logs in three simple clicks.
+LMSYS [LMarena](https://lmarena.ai/) provides free access to SOTA models (GPT-4, Claude 3, Gemini Ultra), but the UI isn't built for long-term storage. This script bridges the gap. It allows you to utilize free community compute for massive projects without losing your data to a browser crash.
 
 **Features:**
 *   **Auto-Sort:** Fixes the DOM scraping issue (LMSYS loads bottom-to-top; this fixes the order).
