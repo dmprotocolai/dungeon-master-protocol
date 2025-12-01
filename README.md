@@ -2,9 +2,9 @@
 
 Narrative AI Research Toolkit is a collection of tools and protocols for long-form narrative AI work.
 It includes:
-– Browser scripts to declutter Google Docs and export LMSYS logs
-– An evaluation rubric and benchmarks for narrative models
-– A public index of my Narrative AI research (“Dungeon Master Protocol”).
+* Browser scripts to declutter Google Docs and export LMSYS logs
+* An evaluation rubric and benchmarks for narrative models
+* A public index of my Narrative AI research (“Dungeon Master Protocol”).
 
 **Want to kill Google Docs distractions?** 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
@@ -146,6 +146,15 @@ LMSYS is great, but the logs are unstable and hard to export. This script runs i
 **Usage:**
 > Copy the code from `scripts/lmsys-scraper`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
 
+**Example Metadata:**
+```
+=== LOG METADATA ===
+Date Scraped: 11/11/2025, 11:12:51
+Total Messages: 1570
+Total Characters: 3,735,231
+Est. Tokens: ~933,808
+====================
+```
 ---
 
 ## 📊 Part 3: Research & Findings (The Charts)
