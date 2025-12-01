@@ -15,11 +15,11 @@ It includes:
 **Want to export LMSYS logs?**
 1. Open Chrome DevTools (F12)
 2. Go to "Sources" → "Snippets"
-3. Paste `lmsys-scraper`
+3. Paste `lmsys-scraper` from [`scripts/`](./scripts/)
 4. Click "Run"
 
 **Want to test your own model?**
-1. Download `audit-rubric` from `open-source/`
+1. Download `audit-rubric` from [`open-source/`](./open-source/)
 2. Fill it out after a 100+ turn test
 3. Compare results to the benchmarks
 
@@ -58,7 +58,7 @@ Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 ## 🛍️ Store & Services
 Do you want to use these protocols without reading 6 million tokens of logs?
 
-*   **☕ [Buy me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
+*   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
 *   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
 *   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
 
@@ -123,7 +123,7 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 ### 💻 How to use the Docs Scripts
 1.  Download [Tampermonkey](https://www.tampermonkey.net/).
 2.  Click the icon in the extension toolbar and click 'Create a new script'.
-3.  Paste the script from `scripts/` and hit File > Save.
+3.  Paste the script from from [`scripts/`](./scripts/) and hit File > Save.
 4.  Refresh your Doc, script should now be active. 
 
 ---
@@ -144,7 +144,7 @@ LMSYS is great, but the logs are unstable and hard to export. This script runs i
 *   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder.
 
 **Usage:**
-> Copy the code from `scripts/lmsys-scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
+> Copy the code from `scripts/lmsys-scraper`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting.
 
 ---
 
