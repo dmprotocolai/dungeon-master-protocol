@@ -165,7 +165,7 @@ Despite stumbling into security issues, the core work is still about **narrative
 
 ---
 
-## What's Included
+## The Goods
 
 ### Prerequisites
 - Chrome/Firefox/Edge browser
