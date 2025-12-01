@@ -7,12 +7,32 @@
 ![White Paper](https://img.shields.io/badge/White_Paper-Pre--Print_Pending-orange)
 ![CVEs](https://img.shields.io/badge/CVEs_Submitted-3-critical)
 ![Research Status](https://img.shields.io/badge/Research-Active-brightgreen)
+![Accidental Security Research](https://img.shields.io/badge/Security_Research-Unintentional-orange)
 
-> *A collection of tools and protocols for long-form narrative AI work—built on spite, powered by 6 million tokens of obsession.*
+> *I just wanted better AI storytelling. I touched AI for the first time 3 months ago. Then I accidentally found some... problems.*
+
+---
+
+## ⚠️ Unintentional Security Research
+
+**Full disclosure:** I am not a security researcher. I'm a writer who got obsessed with AI narrative tools.
+
+While stress-testing models for long-form storytelling (500-1000+ turn conversations), I accidentally discovered some concerning behavior:
+
+1. **Runaway generation bug** - Gemini generated way too many tokens in a single response when prompted "too simply" (cost ~$0.86 in compute, happened multiple times)
+
+2. **Unsolicited jailbreak instructions** - While complaining about GPT rate limits to Gemini, it volunteered step-by-step instructions to extract proprietary data from Custom GPTs. I didn't ask. It just... offered.
+
+3. **The instructions worked** - Tested once on a single Custom GPT (plain English, 5 prompts, no technical knowledge required). Immediately reported to OpenAI bug bounty program.
+
+**Status:** All issues reported through proper channels. Vendors notified. I have no idea what I'm doing but I'm trying to do it responsibly.
+
+**For the record:** I still don't know how to "jailbreak" anything. I was just trying to make AI write better.
 
 ---
 
 ## 📋 Table of Contents
+- [Unintentional Security Research](#-unintentional-security-research)
 - [Quick Start](#-quick-start)
 - [About This Research](#-about-this-research)
 - [Repository Structure](#-repository-structure)
@@ -63,6 +83,22 @@ My private research, including methodologies for maintaining long-term narrative
 
 ---
 
+## 📑 Publications & Pre-Prints
+
+### In Progress:
+- **"The “Dungeon Master” Protocol: A User-Developed Framework for High-Fidelity AI Storytelling"**  
+  *Status:* Submitting to pre-print server (January 2025)
+  
+- **"Constitutional AI vs. RLHF: Architectural Determinants of Narrative Stability"**  
+  *Status:* In preparation
+
+- **"The Dungeon Master Protocol: A Framework for Constraint-Based Narrative AI"**  
+  *Status:* In preparation
+
+*Pre-prints will be linked here upon publication.*
+
+---
+
 ## 📂 Repository Structure
 ```text
 narrative-ai-toolkit/
@@ -78,6 +114,14 @@ narrative-ai-toolkit/
 ├── research/
 │   ├── license-research.txt                             
 │   └── data-samples
+├── ai-security-research/
+│   ├── README.md 
+│   ├── responsible-disclosures/
+│       ├── CVE-2025-XXXXX-gemini-dos.md 
+│       ├── CVE-2025-XXXXX-cross-model-ip-theft.md
+│       └── CVE-2025-XXXXX-custom-gpt-extraction.md
+└── methodologies/
+│   └── long-context-stress-testing.md
 └── open-source/                 
     ├── audit-rubric
     ├── blank-template
@@ -91,10 +135,28 @@ I work with Narrative AI. I need my tools to work, not sparkle.
 
 I wrote this collection of scripts because Google Docs has become a bloatware nightmare of "AI assistants" I didn't ask for, and sidebars that steal my screen real estate. 
 
-This repository contains:
-1.  **UI Murder Scripts:** JavaScript tools to kill Google Docs distractions (Gemini, Sidebars, Meeting notes).
-2.  **LMSYS Scraper:** A robust browser-console tool to rescue your chat logs before the system crashes.
-3.  **Research Data:** Model comparisons, prose fingerprints, and analysis of Narrative AI performance.
+**Included:**
+- Scripts to remove Google Docs bloat
+- LMSYS chat log scraper  
+- Model benchmarks for creative writing
+- Evaluation rubrics for narrative coherence
+- Accidentally discovered edge cases that probably shouldn't exist
+
+**Not included:**
+- Actual security expertise
+- Any idea what I'm doing
+- Regret for the $425 in compute I spent on this
+
+📊 The Actual Research Part
+
+Despite stumbling into security issues, the core work is still about **narrative AI coherence**.
+
+**What I actually tested:**
+- Can AI maintain character voice over 500+ turns?
+- Which models handle complex emotional subtext?
+- How do different architectures handle constraint adherence?
+
+**Models tested:** GPT-4, GPT-5, Claude Sonnet 4.5, Gemini 2.5 Pro, Qwen, Llama, Mistral, Grok, DeepSeek
 
 ---
 
@@ -209,7 +271,7 @@ We tested the models listed below on creative prose generation.
 | **Llama 3 70B** | **Flexible Engine:** Powerful open source base. | **Limited Context:** Memory decay is too rapid for this protocol. | **Not Recommended**<br>*(Context window insufficient)* |
 | **Grok 3** | *None identified* | **Persona Bleed:** "Snarky" personality contaminates characters.<br>**Hostile Architecture:** Ignores negative constraints. | **Unsuitable**<br>*(Do not use for creative writing)* |
 | **Mistral 7B** | **Good Generalist:** Decent performance. | **Insufficient Memory:** Cannot handle the demands of this protocol. | **Not Recommended** |
-| **Deepseek-R1** | N/A | **Basic Outputs:** Lacks sophistication.<br>**Small Context:** Unsuitable. | **Unsuitable** |
+| **Deepseek-R1** |*None identified* | **Basic Outputs:** Lacks sophistication.<br>**Small Context:** Unsuitable. | **Unsuitable** |
 | **Gemini 3** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
 | **GPT-5.1** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
 | **Opus 4.5** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025*  |
@@ -327,14 +389,13 @@ Tag me on Twitter (@dmprotocol_ai) so I can feature it.
 ## 🤝 Collaboration Opportunities
 
 I'm open to:
-- **Security consulting** for AI infrastructure teams
 - **Research collaborations** on narrative AI & long-context coherence
-- **Speaking engagements** on AI safety, security, or evaluation methodologies
+- **Speaking engagements** on AI safety, security, or evaluation methodologies under narrative load.
 - **Academic partnerships** for formal publication of findings
 
 **Current Research Focus:**
 - Long-context narrative coherence
-- AI security vulnerabilities in production systems  
+- Negative contraints affect on prose quality 
 - Constitutional AI vs. RLHF architectural analysis
 - Diagnostic-driven prompt engineering
 
@@ -368,15 +429,35 @@ A: Independent researcher. Open to institutional partnerships.
 **Q: How did you find CVEs with just a Chromebook?**  
 A: Turns out you don't need a datacenter to stress-test production APIs. You just need time, obsession, and 6 million tokens of curiosity.
 
+**Q: Are you a security researcher?**  
+A: No. I'm a writer who accidentally found security issues while testing storytelling AI. I reported them because it seemed like the right thing to do.
+
+**Q: Should I be worried about the vulnerabilities you found?**  
+A: I reported everything through proper channels. Vendors are patching. Don't try to replicate them.
+
+**Q: Can you teach me to jailbreak AI?**  
+A: I literally don't know how. I just talk to AI like a normal person and sometimes weird shit happens.
+
+**Q: How did you test 6 million tokens on $425?**  
+A: Free tiers, LMSYS, free Cloud credis, and an unhealthy obsession with optimization.
+
+**Q: What's your background?**  
+A: Creative writing and journalism. I touched AI for the first time 3 months ago. This entire thing spiraled.
+
+**Q: Are you going to do more security research?**  
+A: Not on purpose. But if I find something else by accident, yeah I'll report it.
+
 ---
 
 ## 🛍️ Support This Work
 
-This research is unfunded. Support keeps it going.
+This research is unfunded. Support keeps it going. If you find it useful:
 
 *   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
 *   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
 *   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
+
+**Full disclosure:** I'm still figuring out pricing. I'm a writer, not a businessperson.
 
 ---
 
@@ -409,6 +490,8 @@ Want to use the research protocols in your game/app/business?
 - Use in commercial projects
 - Lifetime license
 
+**Security findings:** Reported through proper channels. Do not attempt to replicate.
+
 **Questions?** Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 ---
 
@@ -418,6 +501,8 @@ Want to use the research protocols in your game/app/business?
 - **Email:** [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 - **LinkedIn:** [DM Protocol](https://www.linkedin.com/in/dm-protocol-000124397/)
 
+**For security issues:** Please use vendor bug bounty programs, not me. I'm just a writer who got lucky/unlucky.
+
 ---
 
-*Built on spite. Maintained with obsession. Licensed with clarity.*
+*Built on spite. Now I have CVE submissions. Life is weird. Maintained with obsession. Licensed with clarity.*
