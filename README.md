@@ -3,11 +3,8 @@
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Spite Level](https://img.shields.io/badge/Spite_Level-Critical-red)
-![Focus](https://img.shields.io/badge/Focus_Mode-Enabled-blueviolet)
-![White Paper](https://img.shields.io/badge/White_Paper-Pre--Print_Pending-orange)
-![CVEs](https://img.shields.io/badge/CVEs_Submitted-3-critical)
 ![Research Status](https://img.shields.io/badge/Research-Active-brightgreen)
-![Accidental Security Research](https://img.shields.io/badge/Security_Research-Unintentional-orange)
+![CVEs](https://img.shields.io/badge/CVEs_Submitted-3-critical)
 
 > *I just wanted better AI storytelling. I touched AI for the first time 3 months ago. Then I accidentally found some... problems.*
 
