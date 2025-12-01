@@ -97,7 +97,10 @@ My private research, including methodologies for maintaining long-term narrative
 - **"The “Dungeon Master” Protocol: Beyond Helpfulness - Constraint-Based Literary Voice in Large Language Models"**  
   *Status:* In preparation
 
-- **"The Dungeon Master Protocol: Building the Bars In Bureaucracy - Procedural Constraint Design for Long-Context Narratives."**  
+- **"The Dungeon Master Protocol: Building the Bars In Bureaucracy - Procedural Constraint Design for Long-Context Narratives"**  
+  *Status:* In preparation
+
+- **"The Dungeon Master Protocol: A Systematic Rubric for Evaluating Long-Form Narrative AI"**  
   *Status:* In preparation
 
 *Pre-prints will be linked here upon publication.*
