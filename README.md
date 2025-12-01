@@ -14,10 +14,18 @@
 
 ## 📋 Table of Contents
 - [Quick Start](#-quick-start)
-- [Google Docs Scripts](#️-part-1-the-focus-mode-scripts)
-- [LMSYS Scraper](#-part-2-the-lmsys-scraper)
-- [Research Findings](#-part-3-research--findings)
+- [About This Research](#-about-this-research)
+- [Repository Structure](#-repository-structure)
+- [The Motivation](#-the-motivation)
+- [Part 1: Google Docs Scripts](#️-part-1-the-focus-mode-scripts-google-docs)
+- [Part 2: LMSYS Scraper](#-part-2-the-lmsys-scraper)
+- [Part 3: Research & Findings](#-part-3-research--findings-the-charts)
+- [Model Benchmarks](#-model-benchmarks-narrative-performance)
+- [How to Contribute](#-how-to-contribute)
+- [FAQ](#-faq)
+- [Store & Services](#️-store--services)
 - [License](#-license--usage)
+- [Contact](#-contact)
 
 **Want to kill Google Docs distractions?** 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
@@ -37,7 +45,7 @@
 3. Compare results to the benchmarks
 
 The browser scripts and utilities are open-source (MIT).
-The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only (*see License section*).
+The full narrative protocol and research logic are partially proprietary and licensed for non-commercial use only [LICENSE-CODE.txt](./LICENSE-CODE.txt).
 
 ---
 
@@ -57,14 +65,16 @@ My private research, including methodologies for maintaining long-term narrative
 ```text
 narrative-ai-toolkit/
 ├── README.md                
-├── scripts/                 
+├── scripts/
+│   ├── license-code.txt           
 │   ├── docs-gemini-killer
 │   ├── docs-autotitle
 │   ├── docs-focus-mode
 │   ├── docs-banish-tab-index
 │   ├── docs-banish-meetings-sidebar                    
 │   └── lmsys-scraper       
-├── research/                             
+├── research/
+│   ├── license-research.txt                             
 │   └── data-samples
 └── open-source/                 
     ├── audit-rubric
@@ -333,18 +343,38 @@ Do you want to use these protocols without reading 6 million tokens of logs?
 ---
 
 ## 📜 License & Usage
-This repository uses a dual-license structure:
 
-1.  **Code & Scripts:** Licensed under **MIT**. Hack away.
-2.  **Research Data & Narrative Protocols:** Licensed under **CC-BY-NC-ND 4.0**.
-    *   You **cannot** resell the templates or included logic.
-    *   You **cannot** use the research data to train commercial models without permission.
-      
-**TL;DR:** The tools are free. The research insights require a license for commercial use. 
+This repository uses a **dual-license structure**:
 
+### 🆓 Free & Open Source
+**Scripts & Tools** (`/scripts/`, `/open-source/`) → **MIT License**
+- ✅ Use, modify, distribute freely
+- ✅ Commercial use allowed
+- ✅ No attribution required (but appreciated)
+- 📄 See [LICENSE-CODE.txt](./LICENSE-CODE.txt)
+
+### 📚 Research & Protocols
+**Research data, methodologies, benchmarks** → **CC BY-NC-ND 4.0**
+- ✅ Share for non-commercial purposes
+- ❌ Cannot use commercially without license
+- ❌ Cannot train AI models on this data
+- 📄 See [LICENSE-RESEARCH.txt](./LICENSE-RESEARCH.txt)
+
+### 💼 Commercial Use
+Want to use the research protocols in your game/app/business?
+
+**Purchase a commercial license:** [Ko-Fi Shop](https://ko-fi.com/dmprotocolai/shop)
+
+**Includes:**
+- Full prompt templates
+- Modification rights
+- Use in commercial projects
+- Lifetime license
+
+**Questions?** Email: [dmprotocol.ai@gmail.com](mailto:dmprotocol.ai@gmail.com)
 ---
 
-Contact:
+## ☎️ Contact:
 
 Twitter/X: [@dmprotocol.ai](https://x.com/dmprotocol_ai)
 
