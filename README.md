@@ -106,10 +106,12 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 **What it does:** Murders the "Help me write" Gemini button on sight.
 **Why:** Because I don't need a sparkly button interrupting my train of thought.
 
-*"It looks like you're experiencing a moment of creative ambiguity. Would you like me to resolve that for you by generating a soulless, algorithmically optimized paragraph that vaguely resembles your original intent?"* 👀
+> *"It looks like you're experiencing a moment of creative ambiguity.  
+> Would you like me to resolve that for you by generating a soulless,  
+> algorithmically optimized paragraph that vaguely resembles your original intent?"* 👀
 
 ### 2. The Focus Mode (ADHD Savior) 
-**What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on.
+**What it does:** Uses two digital "shutters" to dim everything on the screen except the page you are currently writing on. Use Alt + Z to toggle on/off.
 
 ### 3. Sidebar Assassins (Tab Index & Meetings)
 **What it does:**
@@ -155,6 +157,8 @@ Total Characters: 3,735,231
 Est. Tokens: ~933,808
 ====================
 ```
+> Yes, this was from a real log. No, I am not okay.
+
 ---
 
 ## 📊 Part 3: Research & Findings (The Charts)
