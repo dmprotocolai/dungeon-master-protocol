@@ -330,15 +330,13 @@ A: Yes. See the Ko-Fi shop for services.
 
 ---
 
----
-
 ## 🛍️ Support This Work
-Do you want to use these protocols without reading 6 million tokens of logs?
+
+This research is unfunded. Support keeps it going.
 
 *   **☕ [Buy Me a Coffee (Ko-Fi)](https://ko-fi.com/dmprotocolai)** - Support the compute costs.
 *   **📦 [The Director's Toolkit](https://ko-fi.com/s/fcdf60a3d6)** - Download the ready-to-use prompt scaffolds.
 *   **🛒 [Browse My Shop/Services](https://ko-fi.com/dmprotocolai/shop)** - Browse my prompt packs or hire me to analyze your AI output.
-
 
 ---
 
