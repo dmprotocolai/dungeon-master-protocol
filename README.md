@@ -32,19 +32,24 @@ While stress-testing models for long-form storytelling (500-1000+ turn conversat
 ---
 
 ## 📋 Table of Contents
-- [Unintentional Security Research](#-unintentional-security-research)
+- [Unintentional Security Research](#️-unintentional-security-research)
 - [Quick Start](#-quick-start)
 - [About This Research](#-about-this-research)
+- [Publication & Pre-Prints](#-publications--pre-prints)
 - [Repository Structure](#-repository-structure)
 - [Why This Exists](#-why-this-exists)
 - [Part 1: Google Docs Scripts](#️-part-1-the-focus-mode-scripts-google-docs)
 - [Part 2: LMSYS Scraper](#-part-2-the-lmsys-scraper)
-- [Part 3: Research & Findings](#-part-3-research--findings-the-charts)
+- [Part 3: Research & Findings (The Charts)](#-part-3-research--findings-the-charts)
 - [Model Benchmarks](#-model-benchmarks-narrative-performance)
+- [The Rankings (Stability vs. Quality)](#-the-rankings-stability-vs-quality)
+- [The Dataset: 3 Months, 6 Million Tokens](#-the-dataset-3-months-6-million-tokens)
+- [Low Resource Research Note](#-low-resource-research-note)
 - [How to Contribute](#-how-to-contribute)
+- [Collaboration Opportunities](#-collaboration-opportunities)
 - [FAQ](#-faq)
 - [Support This Work](#️-support-this-work)
-- [License](#-license--usage)
+- [License & Usage](#-license--usage)
 - [Contact](#-contact)
 
 ## 🚀 Quick Start
