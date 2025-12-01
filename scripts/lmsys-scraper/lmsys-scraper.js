@@ -1,0 +1,56 @@
+// ============================================================================
+// 🛠️ LMSYS CHAT SCRAPER (Save My Logs)
+// ============================================================================
+// Author:  The Dungeon Master Protocol
+// Repo:    https://github.com/YOUR_GITHUB_USERNAME/narrative-ai-toolkit
+// Support: https://ko-fi.com/dmprotocolai
+// License: MIT (Free to use, credit appreciated)
+// ============================================================================
+
+
+// 1. Find bubbles
+    const bubbles = document.querySelectorAll('.prose');
+    if (bubbles.length === 0) {
+        alert("ERROR: No chat bubbles found.");
+        return;
+    }
+
+    // 2. Extract and Reverse
+    const messages = Array.from(bubbles).map(b => b.innerText);
+    messages.reverse(); 
+
+    // 3. Calculate Stats
+    const fullText = messages.join('');
+    const charCount = fullText.length;
+    const estTokens = Math.ceil(charCount / 4); // Rough estimate useful for context window tracking
+
+    // 4. Create Header
+    const header = `=== LOG METADATA ===
+Date Scraped: ${new Date().toLocaleString()}
+Total Messages: ${bubbles.length}
+Total Characters: ${charCount.toLocaleString()}
+Est. Tokens: ~${estTokens.toLocaleString()}
+====================
+
+`;
+
+    // 5. Format Final Text
+    const separator = '\n\n<==================== PAGE BREAK ====================>\n\n';
+    const finalString = header + messages.join(separator);
+
+  // 6. Generate Filename (e.g., "LMSYS_15k_Tokens.txt")
+const date = new Date();
+const kTokens = Math.round(estTokens / 1000); // Turns 15000 into 15
+const filename = `LMSYS_${kTokens}k-Tokens_${date.getHours()}-${date.getMinutes()}.txt`;
+
+    // 7. Download
+    const blob = new Blob([finalString], {type: 'text/plain'});
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(a);
+})();
