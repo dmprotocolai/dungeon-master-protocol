@@ -1,7 +1,7 @@
 ## 🚀 Quick Start
 
-Narrative AI Research Toolkit is a collection of tools and protocols for long-form narrative AI work.
-It includes:
+Narrative AI Research Toolkit is a collection of tools and protocols for long-form narrative AI work. It includes:
+
 * Browser scripts to declutter Google Docs and export LMSYS logs
 * An evaluation rubric and benchmarks for narrative models
 * A public index of my Narrative AI research (“Dungeon Master Protocol”).
@@ -117,13 +117,13 @@ These scripts are designed to run via a userscript manager (like Tampermonkey).
 *   Removes the "Meetings" sidebar (blocks the scroll bar, useless).
 
 ### 4. The Auto-Titler
-**What it does:** Renames the file automatically to a sortable time stamped title eg Lab Notes: YYYY - MM - DD 00:00:00.
+**What it does:** Renames the file automatically to a sortable, time stamped title, e.g. Lab Notes: YYYY - MM - DD 00:00:00.
 **Why:** To save me from `Untitled Document (345)` hell.
 
 ### 💻 How to use the Docs Scripts
 1.  Download [Tampermonkey](https://www.tampermonkey.net/).
 2.  Click the icon in the extension toolbar and click 'Create a new script'.
-3.  Paste the script from from [`scripts/`](./scripts/) and hit File > Save.
+3.  Paste the script from [`scripts/`](./scripts/) and hit File > Save.
 4.  Refresh your Doc, script should now be active. 
 
 ---
