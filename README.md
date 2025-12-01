@@ -106,36 +106,39 @@ My private research, including methodologies for maintaining long-term narrative
 *Pre-prints will be linked here upon publication.*
 
 ---
-
+```
+text
 ## 📂 Repository Structure
-```text
 narrative-ai-toolkit/
 ├── README.md                
 ├── scripts/
 │   ├── license-code.txt           
-│   ├── docs-gemini-killer
-│   ├── docs-autotitle
-│   ├── docs-focus-mode
-│   ├── docs-banish-tab-index
-│   ├── docs-banish-meetings-sidebar                    
-│   └── lmsys-scraper       
+│   ├── google-docs/                   
+│   │   ├── gemini-killer.js
+│   │   ├── auto-title.js
+│   │   ├── focus-mode.js
+│   │   ├── banish-tab-index.js
+│   │   └── banish-meetings-sidebar.js
+│   └── lmsys-scraper/
+│       ├── INSTALL.md                 
+│       └── scraper.js   
 ├── research/
 │   ├── license-research.txt
-│   ├── data-manifest                            
-│   └── data-samples
-├── ai-security-research/
+│   ├── data-manifest.md              
+│   └── data-samples/
+├── ai-security-research/              
 │   ├── README.md 
 │   └── responsible-disclosures/
 │       ├── CVE-2025-XXXXX-gemini-dos.md 
 │       ├── CVE-2025-XXXXX-cross-model-ip-theft.md
 │       └── CVE-2025-XXXXX-custom-gpt-extraction.md
-├──  methodologies/
+├── methodologies/
 │   └── long-context-stress-testing.md
 └── open-source/
     ├── README.md             
-    ├── audit-rubric
-    ├── blank-template
-    └── toolkit-sample
+    ├── audit-rubric.md
+    ├── blank-template.md
+    └── toolkit-sample.md
 ```
 
 ---
