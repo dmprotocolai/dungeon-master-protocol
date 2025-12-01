@@ -124,13 +124,14 @@ narrative-ai-toolkit/
 │   └── data-samples
 ├── ai-security-research/
 │   ├── README.md 
-│   ├── responsible-disclosures/
+│   └── responsible-disclosures/
 │       ├── CVE-2025-XXXXX-gemini-dos.md 
 │       ├── CVE-2025-XXXXX-cross-model-ip-theft.md
 │       └── CVE-2025-XXXXX-custom-gpt-extraction.md
-└── methodologies/
+├──  methodologies/
 │   └── long-context-stress-testing.md
-└── open-source/                 
+└── open-source/
+    ├── README.md             
     ├── audit-rubric
     ├── blank-template
     └── toolkit-sample
