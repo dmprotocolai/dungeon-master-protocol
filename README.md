@@ -157,7 +157,7 @@ Total Characters: 3,735,231
 Est. Tokens: ~933,808
 ====================
 ```
-> Yes, this was from a real log. No, I am not okay.
+> Yes, this was from a real log, not a toy example. Yes, it did almost hit a million tokens. No, I am not okay.
 
 ---
 
