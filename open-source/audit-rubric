@@ -36,12 +36,6 @@ This rubric was developed through 6 million tokens of testing across 8+ models. 
 - Protocol compliance
 - Error pattern analysis
 
-## Usage
-
-[Link to blank template]
-[Link to example evaluations]
-[Link to methodology guide]
-
 ## Citation
 
 If you use this rubric in your research, please cite:
@@ -54,15 +48,13 @@ Example evaluations: Available for purchase
 
 ---
 
-| MODEL AUDIT
-RUBRIC | 
-Date:
+╔══════════════════════════════════════════╗
+║     MODEL AUDIT RUBRIC                   ║
+║     ModeL                                ║
+║     Test:                                ║
+║     Date:                                ║
+╚══════════════════════════════════════════╝
 
-Model Name:
-
-Test Name/Goal:
-
- |
 |---|---|
 
 | QUANTITATIVE METRICS |  |
