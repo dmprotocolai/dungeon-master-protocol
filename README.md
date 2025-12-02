@@ -68,7 +68,9 @@ The full narrative protocol and research logic are partially proprietary and lic
 Welcome. This repository serves as a public index for my acknowledged contributions and research in the field of large-scale generative AI.
 
 **Open Source:** All tools, scripts, and evaluation rubrics (MIT License)
+
 **Open Research:** Methodologies, findings, and datasets (Non-commercial CC license)
+
 **Commercial Tools:** Production-ready prompt templates available for licensing
 
 ---
