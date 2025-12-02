@@ -116,14 +116,21 @@ This is the **blank structural framework** used in the Dungeon Master Protocol r
 
 ---
 
-## Want Examples?
+## Can I Figure Out The Advanced Stuff Myself?
 
-**See how this looks filled out:**
-- Example filled templates (20+ genres) available in the Author's Toolkit
-- Genre-specific variants (Fantasy, Sci-Fi, Historical, Modern, etc.)
-- Step-by-step walkthrough of the methodology
+**Yes.** The free template has everything you need to START.
 
-**Get the complete system:** [Ko-Fi - $49]
+If you're determined, you can:
+- Experiment with constraint design
+- Develop your own recovery protocols
+- Build genre-specific variants
+- Create your own momentum systems
+
+**That's exactly what I did.** It took 3 months and 6 million tokens of testing.
+
+**OR** you can get the complete system for $49 and start building tonight.
+
+Both paths are valid. Choose based on your time/budget.
 
 ---
 
