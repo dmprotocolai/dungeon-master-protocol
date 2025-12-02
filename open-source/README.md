@@ -101,7 +101,7 @@ Use these for version control and GitHub-based workflows:
 ### Formatted Documents (Google Docs)
 Prefer formatted templates? Use these:
 - [Audit Rubric (Google Doc)](https://docs.google.com/document/d/1niGvc6aYFlzPKLIfmOmXzXl6VPF2aqvezsHeFvdM_j0/edit?usp=sharing) - Click "File > Make a copy"
-- [Blank Story Bible (Google Doc)](https://drive.google.com/your-link) - Click "File > Make a copy"
+- [Blank Story Bible (Google Doc)](https://docs.google.com/document/d/1yDpg5AMyeLfd3rKtiRQpINbs41ax97uDUBw34Hy51CQ/edit?usp=sharing) - Click "File > Make a copy"
 
 > **Tip:** Download as `.docx` from Google Docs if you need Word compatibility. 
 
