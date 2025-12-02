@@ -43,6 +43,19 @@ Google Docs has become unusable for neurodivergent writers due to visual clutter
 
 ---
 
+**Before (Hell)**
+
+>Gemini sparkling, sidebars cluttering, another 'untitled document' for the heap.
+
+![Gemini sparking, sidebars cluttering, 'untitled document'](../assets/hell.png)
+
+**After (Peace)**
+
+>Gemini banished, side bars sent to hell, autotitle activated
+
+
+
+
 ## 💾 Section 2: The LMSYS Scraper
 *Located in: `/lmsys-scraper/`*
 
