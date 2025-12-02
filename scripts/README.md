@@ -43,6 +43,8 @@ Google Docs has become unusable for neurodivergent writers due to visual clutter
 
 ---
 
+## 📷 Screenshots
+
 **Before (Hell)**
 
 >Gemini sparkling, sidebars cluttering, another 'untitled document' for the heap.
@@ -55,6 +57,15 @@ Google Docs has become unusable for neurodivergent writers due to visual clutter
 
 ![No UI bloat, AI assistant begone](../assets/peace.png)
 
+**Focus (Engaged)**
+
+>I love CalmlyWriter but I hate losing everything when the tab refreshes. Get the best of both worlds, focus mode AND autosave. Alt + Z to toggle. 
+
+![shutters activated](../assets/focus-mode.png)
+
+>I turned off dark mode for this, I'm blind(er) now. 
+
+---
 
 ## 💾 Section 2: The LMSYS Scraper
 *Located in: `/lmsys-scraper/`*
