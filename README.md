@@ -256,7 +256,7 @@ Once the tools were fixed, I actually did the work. Here is the analysis of Narr
 | **Diagnostic-Driven Rule Invention** | All rules weren't hypothetical—they were iterative solutions to model failures. |
 
 ### Model Comparisons
-We tested the models listed below on creative prose generation.
+I tested the models listed below on creative prose generation.
 
 ## 🧪 Model Benchmarks (Narrative Performance)
 
