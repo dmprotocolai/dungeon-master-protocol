@@ -53,7 +53,7 @@ Google Docs has become unusable for neurodivergent writers due to visual clutter
 
 >Gemini banished, side bars sent to hell, autotitle activated
 
-
+![No UI bloat, AI assistant begone](../assets/peace.png)
 
 
 ## 💾 Section 2: The LMSYS Scraper
