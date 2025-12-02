@@ -270,9 +270,9 @@ I tested the models listed below on creative prose generation.
 | **Grok 3** | *None identified* | **Persona Bleed:** "Snarky" personality contaminates characters.<br>**Hostile Architecture:** Ignores negative constraints. | **Unsuitable**<br>*(Do not use for creative writing)* |
 | **Mistral 7B** | **Good Generalist:** Decent performance. | **Insufficient Memory:** Cannot handle the demands of this protocol. | **Not Recommended** |
 | **Deepseek-R1** |*None identified* | **Basic Outputs:** Lacks sophistication.<br>**Small Context:** Unsuitable. | **Unsuitable** |
-| **Gemini 3** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
-| **GPT-5.1** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025* |
-| **Opus 4.5** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2025*  |
+| **Gemini 3** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2026* |
+| **GPT-5.1** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2026* |
+| **Opus 4.5** | *Testing soon*  | *Testing soon*  | ⏳ *Coming Jan 2026*  |
 
 
 ## 🧬 Model "Prose Fingerprints"
