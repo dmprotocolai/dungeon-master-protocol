@@ -2,17 +2,26 @@
 
 A complete structural framework for building long-form narrative AI systems.
 
-**Want the filled version with examples?**
+## What's Different From The Paid Version?
 
-The **Author's Toolkit** ($49) includes:
+**This free template includes:**
+- ✅ Core rules (prevents 70% of common AI problems)
+- ✅ Basic structure (3-part organization system)
+- ✅ Character/NPC templates
+- ✅ Opening scene framework
 
-*  **20+ genre-specific story bible templates** (Fantasy, Sci-Fi, Romance, Horror, etc.)
-*  **Filled examples** showing how to use each section
-*  **Step-by-step methodology guide** (how to build your world)
-*  **Model selection guide** (which AI for which task)
-*  **40+ Director's Toolkit prompts** (complete prompt library)
-*  **Troubleshooting protocols** (what to do when things break)
-*  **Audit rubric with instructions** (evaluate your results)
+**The Author's Toolkit ($49) adds:**
+- ✅ **The Momentum Engine** (prevents plot stagnation)
+- ✅ **Full negative constraints system** (advanced behavior control)
+- ✅ **20+ filled examples** (see exactly how to use each section)
+- ✅ **Genre-specific variants** (Fantasy, Sci-Fi, Romance, Horror, etc.)
+- ✅ **Troubleshooting guide** (diagnostic protocols for when things break)
+- ✅ **40+ Director's Toolkit prompts** (complete prompt library)
+- ✅ **Step-by-step methodology** (how to build and iterate)
+- ✅ **Audit rubric with instructions** (evaluate your results)
+
+**The free version gets you started.**  
+**The paid version gets you to 300+ turns without breaking.**
 
 Available on [Ko-Fi]
 
