@@ -51,8 +51,6 @@ While stress-testing models for long-form storytelling (500-1000+ turn conversat
 
 ## 🚀 Quick Start
 
-## 🚀 Quick Start
-
 **Never used this before? Start here:**
 👉 [Kill Google Docs bloat in 2 minutes](#%EF%B8%8F-part-1-the-focus-mode-scripts-google-docs)
 
@@ -104,8 +102,9 @@ narrative-ai-toolkit/
 │       └── scraper.js   
 ├── research/
 │   ├── license-research.txt
-│   ├── data-manifest.md              
-│   └── data-samples/
+│   ├── data-manifest.md
+│   ├── rubric-sonnet-4.5.md                    
+│   └── data-samples.md
 ├── ai-security-research/              
 │   ├── README.md 
 │   └── responsible-disclosures/
