@@ -45,19 +45,19 @@ Google Docs has become unusable for neurodivergent writers due to visual clutter
 
 ## 📷 Screenshots
 
-**Before (Hell)**
+### **Before (Hell)**
 
 >Gemini sparkling, sidebars cluttering, another 'untitled document' for the heap.
 
 ![Gemini sparking, sidebars cluttering, 'untitled document'](../assets/hell.png)
 
-**After (Peace)**
+### **After (Peace)**
 
 >Gemini banished, side bars sent to hell, autotitle activated
 
 ![No UI bloat, AI assistant begone](../assets/peace.png)
 
-**Focus (Engaged)**
+### **Focus (Engaged)**
 
 >I love CalmlyWriter but I hate losing everything when the tab refreshes. Get the best of both worlds, focus mode AND autosave. Alt + Z to toggle. 
 
