@@ -5,6 +5,7 @@
 // @description  Nukes the sidebar and forces the editor to the correct position from orbit. It's the only way to be sure.
 // @author       The Resistance 
 // @match        https://docs.google.com/document/*
+// @noframes
 // @grant        none
 // ==/UserScript==
 
