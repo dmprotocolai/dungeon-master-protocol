@@ -6,6 +6,7 @@
 // @author       The Resistance
 // @match        https://docs.google.com/document/d/*
 // @grant        none
+// @noframes
 // @run-at       document-end
 // ==/UserScript==
 
