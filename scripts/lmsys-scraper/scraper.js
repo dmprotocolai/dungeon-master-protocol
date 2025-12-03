@@ -31,6 +31,7 @@ Total Messages: ${bubbles.length}
 Total Characters: ${charCount.toLocaleString()}
 Est. Tokens: ~${estTokens.toLocaleString()}
 
+${oversized ? '⚠️  WARNING: Exceeds Google Docs limit (1.1M chars)\n📄 Open in text editor instead (VS Code, Obsidian, etc.)\n' : ''}
 Scraped with: LMSYS Scraper v${version}
 GitHub: github.com/dmprotocolai/dungeon-master-protocol
 Support: ko-fi.com/dmprotocolai
