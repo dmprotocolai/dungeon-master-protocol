@@ -22,7 +22,7 @@
     // 3. Calculate Stats
     const fullText = messages.join('');
     const charCount = fullText.length;
-    const estTokens = Math.ceil(charCount / 4); // Rough estimate useful for context window tracking
+    const estTokens = Math.ceil(charCount / 4); 
 
     // 4. Create Header
     const header = `=== LOG METADATA ===
