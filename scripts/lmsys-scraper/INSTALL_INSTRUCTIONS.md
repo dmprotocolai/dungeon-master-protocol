@@ -9,14 +9,14 @@ Stop scrolling and highlighting. This script grabs the entire chat log, fixes th
 4.  When you are on a chat page, just click the bookmark.
 
 ### Option 2: The Console (Dev Mode)
-1.  Press `F12` to open Developer Tools. (or right click + inspect)
+1.  Press `F12` to open Developer Tools. (or right click + `Inspect`)
 2.  Go to the **Console** tab.
 3.  Paste the code and hit **Enter**.
 
 ### Option 3: Snippets (Browser Console)
-1. Press `F12` to open Developer Tools. (or right click + inspect)
+1. Press `F12` to open Developer Tools. (or right click + `Inspect`)
 2. Go to the **Sources** tab.
-3. Look in the right hand corner for Page Snippets (it may be hidden behind the >>)
+3. Look in the right hand corner for Page Snippets (it may be hidden behind the `>>`)
 4. Click `+ New Snippet` and paste the code into the box to the right
 5. `Ctrl + Enter` to run
 
@@ -49,6 +49,36 @@ If your log exceeds this limit:
 - Searchable forever
 
 **Plain text is beautiful.**
+
+---
+
+## ⚠️ Disclaimer
+These scripts interact with the DOM (Document Object Model) of third-party websites.
+*   If LMSYS changes their website code, this script might break.
+*   If it breaks, feel free to open an Issue (or fix it yourself and submit a Pull Request).
+*   **Privacy:** These scripts run 100% locally on your machine. No data is sent to me or anyone else. I'm drowning in enough data, I don't want yours too.
+
+---
+
+## 📜 License
+MIT License. Use them, fork them, break them.
+
+---
+
+## ☕ Support This Work
+
+These scripts are **free forever** (MIT License).
+
+If they saved your sanity:
+- ⭐ **Star this repo** (helps others find it)
+- 🐛 **Report bugs** (open an issue)
+- ☕ **Buy me a coffee** [Ko-Fi link](https://ko-fi.com/dmprotocolai)
+
+Want more tools for writers?
+- 📚 **Writer's Resources** (templates, no AI needed) - $29
+- 🤖 **AI Author's Toolkit** (the full framework) - $79
+
+[Browse the full toolkit →](https://ko-fi.com/dmprotocolai)
 
 ---
 
