@@ -30,9 +30,11 @@ Date Scraped: ${new Date().toLocaleString()}
 Total Messages: ${bubbles.length}
 Total Characters: ${charCount.toLocaleString()}
 Est. Tokens: ~${estTokens.toLocaleString()}
-====================
 
-`;
+Scraped with: LMSYS Scraper v${version}
+GitHub: github.com/dmprotocolai/dungeon-master-protocol
+Support: ko-fi.com/dmprotocolai
+====================`;
 
     // 5. Format Final Text
     const separator = '\n\n<==================== PAGE BREAK ====================>\n\n';
