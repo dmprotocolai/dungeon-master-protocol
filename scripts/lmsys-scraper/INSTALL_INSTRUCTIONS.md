@@ -20,6 +20,14 @@ Stop scrolling and highlighting. This script grabs the entire chat log, fixes th
 4. Click `+ New Snippet` and paste the code into the box to the right
 5. `Ctrl + Enter` to run
 
+![Snippets preview](https://github.com/dmprotocolai/dungeon-master-protocol/blob/ca6c0942b629f7270e47b4bbef11821eb9277533/assets/browser-console.png)
+
+---
+
+>Example of extracted metadata 
+
+![I'd pick the 100 Elon ducks too](https://github.com/dmprotocolai/dungeon-master-protocol/blob/ca6c0942b629f7270e47b4bbef11821eb9277533/assets/metadata-example.png)
+
 ---
 
 ## 📊 File Size Limits
