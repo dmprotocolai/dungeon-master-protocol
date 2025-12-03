@@ -93,3 +93,28 @@ These scripts interact with the DOM (Document Object Model) of third-party websi
 
 ## 📜 License
 MIT License. Use them, fork them, break them.
+
+---
+
+## ☕ Support This Work
+
+These scripts are **free forever** (MIT License).
+
+If they saved your sanity:
+- ⭐ **Star this repo** (helps others find it)
+- 🐛 **Report bugs** (open an issue)
+- ☕ **Buy me a coffee** [Ko-Fi link](https://ko-fi.com/dmprotocolai)
+
+Want more tools for writers?
+- 📚 **Writer's Resources** (templates, no AI needed) - $29
+- 🤖 **AI Author's Toolkit** (the full framework) - $79
+
+[Browse the full toolkit →](https://ko-fi.com/dmprotocolai)
+
+---
+
+*Built by a chaos gremlin with ADHD on a Chromebook.*
+
+*Learned JavaScript in 30 days out of pure spite.*
+
+*May you find focus. Peace be upon ye.*
