@@ -2,7 +2,7 @@
 // 🛠️ LMSYS CHAT SCRAPER (Save My Logs)
 // ============================================================================
 // Author:  The Dungeon Master Protocol
-// Repo:    https://github.com/YOUR_GITHUB_USERNAME/narrative-ai-toolkit
+// Repo:    https://github.com/dmprotocolai/dungeon-master-protocol
 // Support: https://ko-fi.com/dmprotocolai
 // License: MIT (Free to use, credit appreciated)
 // ============================================================================
