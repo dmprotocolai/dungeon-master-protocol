@@ -211,7 +211,7 @@ LMSYS [LMarena](https://lmarena.ai/) provides free access to SOTA models (GPT-4,
 **Features:**
 *   **Auto-Sort:** Fixes the DOM scraping issue (LMSYS loads bottom-to-top; this fixes the order).
 *   **Meta-Data Injection:** Automatically adds `Date Scraped`, `Turn Count`, `Char Count`, and `Approx Tokens` to the header.
-*   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder.
+*   **One-Click Export:** Spits out a clean `.txt` file to your downloads folder with the title `LMSYS_#k-Tokens_TIMESTAMP.txt`. Time taken? under 30 seconds.
 
 **Usage:**
 > Copy the code from `scraper.js`, create a Snippet in Chrome DevTools, and click "Run" when you are on a chat page. Saves hours of copy-pasting and even more sanity.
@@ -226,6 +226,39 @@ Est. Tokens: ~933,808
 ====================
 ```
 > Yes, this was from a real log, not a toy example. Yes, it did almost hit a million tokens. No, I am not okay. Thanks for asking.
+
+---
+
+## 📊 Real-World Use Cases
+
+**"But who needs to scrape 1,570-turn conversations?"**
+
+Valid question. Here's who:
+
+### 1. **AI Safety Researchers**
+Testing models under sustained load to find degradation patterns.
+
+*Example: Does Claude maintain character consistency across 500+ turns?*
+
+### 2. **Creative Writers**
+Using AI as a co-writing partner for long-form projects.
+
+*Example: Writing a word novel with full character bibles.*
+
+### 3. **Prompt Engineers**
+Iterating on complex prompts and tracking what works across models.
+
+*Example: Testing the same prompt on GPT-4, Claude, and Gemini.*
+
+### 4. **Academic Researchers**
+Collecting qualitative data from extended AI conversations.
+
+*Example: Studying how models handle ambiguous ethical questions.*
+
+### 5. **Data Hoarders**
+Archiving everything because you never know when you'll need it.
+
+*Example: Me. Hi. I have 6 million tokens logged.*
 
 ---
 
