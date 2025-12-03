@@ -5,6 +5,7 @@
 // @description  Alt+Z to toggle. Dims UI and all text except the active paragraph.
 // @author       The Reistance
 // @match        https://docs.google.com/*
+// @noframes
 // @grant        GM_addStyle
 // ==/UserScript==
 
