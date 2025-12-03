@@ -106,7 +106,7 @@ javascript:(function(){
     const messages = Array.from(bubbles).map(b => b.innerText);
     messages.reverse(); 
 
-    // 3. Calculate Stats
+       // 3. Calculate Stats
     const fullText = messages.join('');
     const charCount = fullText.length;
     const estTokens = Math.ceil(charCount / 4); 
