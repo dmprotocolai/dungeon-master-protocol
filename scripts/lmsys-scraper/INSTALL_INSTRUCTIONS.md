@@ -20,6 +20,38 @@ Stop scrolling and highlighting. This script grabs the entire chat log, fixes th
 4. Click `+ New Snippet` and paste the code into the box to the right
 5. `Ctrl + Enter` to run
 
+---
+
+## 📊 File Size Limits
+
+### Google Docs Limit: 1,102,500 characters
+
+If your log exceeds this limit:
+- ❌ **Don't** try to open in Google Docs (it will error)
+- ✅ **Do** keep the .txt file in Google Drive (searchable)
+- ✅ **Do** open locally if needed (VS Code, Obsidian, Notepad++)
+
+**The scraper will warn you** if a file exceeds this limit.
+
+>Pro Tip: If you do need to open a large .txt in Docs, let Google's servers do the heavy lifting, copy the file to your Drive, within a Doc click File > Open, it will render into a Doc automatically. 
+
+### Storage Requirements
+
+**Average conversation sizes:**
+- Short (50 turns): ~50k chars = 50 KB
+- Medium (200 turns): ~200k chars = 200 KB
+- Long (500 turns): ~500k chars = 500 KB
+- Epic (1570 turns): ~3.7M chars = 3.7 MB
+
+**My entire research archive:**
+- 6M tokens = ~4.5 MB total
+- Less than 2 photos
+- Searchable forever
+
+**Plain text is beautiful.**
+
+---
+
 ### 📜 The Code
 ```javascript
 // ============================================================================
