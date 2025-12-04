@@ -41,6 +41,8 @@ If your log exceeds this limit:
 
 **The scraper will warn you** if a file exceeds this limit.
 
+![the code screams at you for free](https://github.com/dmprotocolai/dungeon-master-protocol/blob/5ce780601fcdb62683e1c82d6659fee8ba196b14/assets/warning-example.png)
+
 >Pro Tip: If you do need to open a large .txt in Docs, let Google's servers do the heavy lifting, copy the file to your Drive, within a Doc click File > Open, it will render into a Doc automatically. 
 
 ### Storage Requirements
