@@ -13,7 +13,7 @@ This folder contains the custom scripts I wrote to fix the User Interfaces of Go
 | **Docs UI** | `banish-meetings-sidebar.js` | **Google Docs** | 🟢 Working |
 | **Docs UI** | `banish-tab-index.js` | **Google Docs** | 🟢 Working |
 | **Utility** | `auto-title.js` | **Google Docs** | 🟢 Working |
-| **Data** | `lmsys-scraper.js` | **LMSYS / Chatbot Arena** | 🟢 Working |
+| **Data** | `scraper.js` | **LMSYS / Chatbot Arena** | 🟢 Working |
 
 ---
 
