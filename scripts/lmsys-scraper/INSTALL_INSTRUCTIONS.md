@@ -30,6 +30,13 @@ Stop scrolling and highlighting. This script grabs the entire chat log, fixes th
 
 ---
 
+>After running you will get a pop up prompting you to add in the model name, which will get added to the file name and the meta data within the `.txt`
+
+![automating the process so you don't have to.](https://github.com/dmprotocolai/dungeon-master-protocol/blob/fc5952d44b81c40bb00171a6535c4d5f334a3df1/assets/model-popup.png)
+
+
+---
+
 ## 📊 File Size Limits
 
 ### Google Docs Limit: 1,102,500 characters
@@ -103,9 +110,8 @@ Want more tools for writers?
 // License: MIT (Free to use, credit appreciated)
 // ============================================================================
 
+
 (function() {
-    const version = "1.0"; // Define version
-    
     // 1. Find bubbles
     const bubbles = document.querySelectorAll('.prose');
     if (bubbles.length === 0) {
@@ -121,32 +127,38 @@ Want more tools for writers?
     const fullText = messages.join('');
     const charCount = fullText.length;
     const estTokens = Math.ceil(charCount / 4); 
-    const oversized = charCount > 1100000; // Define oversized check
+    const oversized = charCount > 1100000;
 
-    // 4. Create Header
+    // NEW STEP: Ask for Model Name immediately
+
+    let modelName = prompt("Enter Model Name (for metadata):", "Gemini-Pro");
+    if (!modelName) modelName = "Unknown_Model"; // Fallback if you hit Cancel
+
+    // 4. Create Header 
     const header = `=== LOG METADATA ===
 Date Scraped: ${new Date().toLocaleString()}
+Model: ${modelName}
 Total Messages: ${bubbles.length}
 Total Characters: ${charCount.toLocaleString()}
 Est. Tokens: ~${estTokens.toLocaleString()}
 
-${oversized ? '⚠️  WARNING: Exceeds Google Docs limit (1.1M chars)\n📄 Open in text editor instead (VS Code, Obsidian, etc.)\n' : ''}
-Scraped with: LMSYS Scraper v${version}
-GitHub: github.com/dmprotocolai/dungeon-master-protocol
-Support: ko-fi.com/dmprotocolai
+${oversized ? '⚠️  WARNING: Exceeds Google Docs limit (1.1M chars)\n' : ''}
+Scraped with: LMSYS Scraper v1.2
 ====================
 
 `;
 
-    
     // 5. Format Final Text
     const separator = '\n\n<==================== PAGE BREAK ====================>\n\n';
     const finalString = header + messages.join(separator);
 
-    // 6. Generate Filename (e.g., "LMSYS_15k_Tokens.txt")
+    // 6. Generate Filename
+    // Clean the name for Windows (Turn "Gemini 1.5 Pro" into "Gemini-1-5-Pro")
+    const safeModelName = modelName.replace(/[^a-z0-9]/gi, '-').replace(/-+/g, '-');
+    
     const date = new Date();
-    const kTokens = Math.round(estTokens / 1000); // Turns 15000 into 15
-    const filename = `LMSYS_${kTokens}k-Tokens_${date.getHours()}-${date.getMinutes()}.txt`;
+    const kTokens = Math.round(estTokens / 1000); 
+    const filename = `${safeModelName}_${kTokens}k-Tokens_${date.getHours()}-${date.getMinutes()}.txt`;
 
     // 7. Download
     const blob = new Blob([finalString], {type: 'text/plain'});
