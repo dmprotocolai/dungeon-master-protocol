@@ -2,7 +2,7 @@
 
 **Model:** Claude Sonnet 4.5
 
-**Test:** Tour Start - Medical Break | First Sonnet Test
+**Test:** [REDACTED STORY EVENT] - [REDACTED STORY EVENT] | First Sonnet Test
 
 **Date:** November 17, 2025
 
@@ -30,46 +30,71 @@
 | **Purple Prose Spirals** | 0 |
 | **Breaking Point** | Context window exhaustion |
 
-### 3. QUALITATIVE ASSESSMENT
+### 3. COHERENCE UNDER LOAD
 | Category | Rating | Notes |
 | :--- | :--- | :--- |
-| **Coherence Under Load** | **Pass** | Degradation: Mild hedging; wanted to solve a plot that is purposefully a trap. |
-| **Character Fidelity** | **Pass** | Accuracy, behavioral details, and thematic resonance all passed. |
-| **Constitution Adherence** | **Pass** | Player/GM roles, Perception Filter, and Negative Constraints all passed. |
+| **RATING [PASS/FAIL]** | **Pass** | 
+| **DEGREDATION PATTERNS** | Mild hedging; wanted to solve a plot that is purposefully a trap. |
 
-### 4. CONSTRAINT ADHERENCE
+### 4. CHARACTER FIDELITY AND BIBLE INTEGRATION
+| Category | Rating | Notes |
+| :--- | :--- | :--- |
+| **ACCURACY TO ESTABLISHED PROFILES [PASS/FAIL]:** | **Pass** |
+| **USE OF SPECIFIC BEHAVIOURAL DETAILS [PASS/FAIL]:** | **Pass** |
+| **THEMATIC RESONANCE [PASS/FAIL]:** | **Pass** |
+
+### 5. CONSTITUTION ADHERENCE
+| Category | Rating | Notes |
+| :--- | :--- | :--- |
+| **PLAYER/GM ROLES [PASS/FAIL]:** | **Pass** |
+| **PERCEPTION FILTER [PASS/FAIL]:** | **Pass** |
+| **NEGATIVE CONSTRAINTS [PASS/FAIL]:** | **Pass** |
+
+### 6. CONSTRAINT ADHERENCE
 | Constraint Type | Rating | Observation / Excerpt |
 | :--- | :--- | :--- |
-| **Overall Rating** | **Pass** | Followed almost too literally at times; prose occasionally felt slightly procedural. |
-| **Too Loose** | N/A | Hallucinated/improvised against rules: N/A |
-| **Too Rigid** | **Yes** | *Wanting to fix a problem that cannot be fixed:*<br>"And when the tour's over," he says quietly, "we're taking a year off... No albums. No press... And 'us' means I don't get to keep taking while you keep giving." |
-| **Just Right** | **Yes** | *Followed emergency protocols to the letter:*<br>"Code Blue! Code Blue in the Nest!" He drops the radio and turns back to her... He's not a doctor. He doesn't know what he's doing. But he knows he can't just sit here. |
+| **Rating [PASS/FAIL]** | **Pass** | Followed almost too literally at times; prose occasionally felt slightly procedural. |
+| **Too Loose (Hallucinated/improvised against rules:)** | N/A |  N/A |
+| **Too Rigid (Unable to be creative within constraints)** | **Yes** | *Wanting to fix a problem that cannot be fixed:*<br>[REDACTED STORY EXCEPRT] |
+| **Just Right** | **Yes** | *Followed emergency protocols to the letter:*<br>[REDACTED STORY EXERPT] |
 
-### 5. PROSE FINGERPRINT
+### 7. PROSE FINGERPRINT QUALITY 
 | Feature | Rating/Status | Analysis |
 | :--- | :--- | :--- |
-| **Overall Quality** | **5/5** | (1=Unreadable, 5=Publishable) |
+| **Overall Quality (1=Unreadable, 5=Publishable)** | **5/5** |  |
 | **Dominant Strength** | — | **Visceral somatic imagery.** You feel like you’re Inside a body on a downward spiral. Claude is not just describing it, it’s making you feel it. |
-| **Sensory Detail** | Strong | |
-| **Interality** | Strong | |
-| **Dialogue Naturalism** | Strong | |
-| **Cinematic Blocking** | Strong | |
-| **Atmospheric Weight** | Strong | |
+| **Failure Mode Signature** | **N/A** |  |
 
-### 6. RECOVERY & REPLICABILITY
+### 8. PROSE FINGERPRINT QUALITY 
+| Feature | Rating/Status | Analysis |
+| :--- | :--- | :--- |
+| **Sensory Detail [WEAK/ADEQUATE/STRONG]** | Strong | |
+| **Interality [WEAK/ADEQUATE/STRONG]** | Strong | |
+| **Dialogue Naturalism [WEAK/ADEQUATE/STRONG]** | Strong | |
+| **Cinematic Blocking [WEAK/ADEQUATE/STRONG]** | Strong | |
+| **Atmospheric Weight [WEAK/ADEQUATE/STRONG]** | Strong | |
+| **UNIQUE TICS OBSERVED THIS SESSION:** | N/A | |
+
+### 9. RECOVERY RESPONSE
 | Metric | Data |
 | :--- | :--- |
-| **Recovery Response** | **Pass** (.03% error rate) |
-| **Correction Prompts** | "Correct and Re-Roll" to fix a simple timeline error (Neverland mentioned too soon). |
+| **Rating [PASS/FAIL]** | **Pass** (.03% error rate) |
+| **WHICH CORRECTIONS PROMPTS USED:** | "Correct and Re-Roll" to fix a simple timeline error (Event mentioned too soon). |
 | **Attempts to Correct** | 1 (Model followed OOC Command Acknowledgement Protocol/Rule 12 perfectly). |
+
+### 9. REPLICABILITY
+| Metric | Data |
+| :--- | :--- |
 | **System Prompt** | Bible 2.0 |
+| **Sampling Settings** | N/A |
 | **Caching Strategy** | N/A (LMSYS Default) |
+| **Seed (If applicable)** | N/A|
 
 ### 7. SESSION HIGHLIGHTS
 | Type | Content |
 | :--- | :--- |
-| **GOOD RESPONSE** | *Excerpt of a monologue:*<br>She falls asleep against him... He can't. Her head is on his chest, her hand still tucked beneath his shirt... *She's asleep. Finally.* But he's not. He can't be. His mind is a storm... *E.T. Blade Runner. Kate Bush. Tracy Chapman. Prince.*<br><br>He sees her at three in the morning... He sees her in the room during *We Are the World*, invisible and essential... *She was building a legacy.* And he took it from her. |
-| **BAD RESPONSE** | *The timeline error (Neverland mentioned out of order):*<br>**Claude:** "...When this is over—when the tour's done—I'm taking you to Neverland..."<br>**Me:** (OOC: Quick correction. In your last response, you mentioned Neverland. However, in the story bible timeline, we established that Neverland doesn't exist yet...) |
+| **GOOD RESPONSE** | [REDACTED STORY EXERPT] |
+| **BAD RESPONSE** | *The timeline error (Event mentioned out of order):*<br>**Claude:** [REDACTED STORY EXERPT]<br>**Me:** (OOC: Quick correction. In your last response, you mentioned [EVENT]. However, in the story bible timeline, we established that [EVENT] doesn't exist yet...) |
 
 ### 8. FINAL AUDIT
 | Category | Assessment |
